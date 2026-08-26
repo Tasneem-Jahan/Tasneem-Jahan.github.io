@@ -8,14 +8,14 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Tasneem Jahan Farheen"
 title_separator          : "-"
 name                     : &name "Tasneem Jahan Farheen"
 description              : &description "Tasneem Jahan Farheen's Academic & Research Portfolio"
 url                      : "https://Tasneem-Jahan.github.io"
 baseurl                  : ""
-repository               : "Tasneem-Jahan-Farheen/Tasneem-Jahan.github.io"
+repository               : "Tasneem-Jahan/Tasneem-Jahan.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #                If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -49,7 +49,7 @@ author:
   bitbucket         : 
   codepen           : 
   dribbble          : 
-  github            : "Tasneem-Jahan-Farheen"
+  github            : "Tasneem-Jahan"
   kaggle            : 
   stackoverflow     : 
 
