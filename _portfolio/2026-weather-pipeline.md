@@ -2,7 +2,7 @@
 title: "Weather API Data Pipeline & Power BI Dashboard"
 excerpt: "An automated Python ETL pipeline ingesting Open-Meteo observations with SQL trend analysis and an interactive Power BI dashboard."
 collection: portfolio
-date: 2024-06-01
+date: 2026-08-01
 ---
 
 **Code Repository:** [GitHub](https://github.com/Tasneem-Jahan-Farheen)  
