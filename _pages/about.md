@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master's graduate in Computer Science and Engineering from BRAC University specializing in machine learning, distributed learning systems, and healthcare informatics. My research focuses on deep learning, knowledge distillation, and learning from limited, heterogeneous clinical data. 
+I am a Master's graduate in Computer Science and Engineering from BRAC University specializing in Machine Learning and Healthcare Informatics, with a focus on decentralized systems, uncertainty calibration and multimodal clinical decision support.
 
-> **Prospective PhD Student:** I am actively seeking PhD opportunities in Computer Science / Machine Learning starting **Fall 2027**.
+> **Prospective PhD Student:** I am actively seeking PhD opportunities in Machine Learning and Healthcare Informatics starting **Fall 2027**.
 
 In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous clinical tabular data, evaluating logit-level and encoder-level knowledge distillation under few-shot supervision with MLP, SAINT, and TabM architectures. My B.Sc. thesis evaluated machine learning classifiers for heart disease risk prediction across multi-source clinical datasets using rigorous cross-validation, hyperparameter tuning, and ROC-AUC metrics. In addition to research, I have a strong foundation in full-stack software development and data engineering.
 
