@@ -2,7 +2,7 @@
 title: "Knowledge Distillation in Split Learning for Clinical Tabular Data"
 excerpt: "A split learning framework with logit-level and encoder-level knowledge distillation for heterogeneous clinical tabular datasets."
 collection: portfolio
-date: 2026-03-01
+date: 2026-03-11
 ---
 
 **Institution:** BRAC University  
