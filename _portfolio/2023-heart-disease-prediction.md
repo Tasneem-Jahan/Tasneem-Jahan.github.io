@@ -2,7 +2,7 @@
 title: "Heart Disease Prediction Using Machine Learning"
 excerpt: "A comparative evaluation of five ML classifiers on multi-source clinical datasets using cross-validation and ROC-AUC optimization."
 collection: portfolio
-date: 2023-05-01
+date: 2023-05-22
 ---
 
 **Institution:** American International University-Bangladesh (AIUB)  
