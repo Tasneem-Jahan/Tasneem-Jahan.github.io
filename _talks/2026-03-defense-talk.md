@@ -1,5 +1,5 @@
 ---
-title: "Privacy-Preserving Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data"
+title: "Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data"
 collection: talks
 type: "M.Sc. Thesis Defense Presentation"
 permalink: /talks/2026-03-defense-talk
