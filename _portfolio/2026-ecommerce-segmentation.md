@@ -2,7 +2,7 @@
 title: "E-Commerce Customer Retention & Behavioral Segmentation Engine"
 excerpt: "Analytics engine contrasting rule-based RFM segmentation with ML-driven K-Means clustering and a multi-metric Fitness Score."
 collection: portfolio
-date: 2026-07-01
+date: 2026-07-15
 ---
 
 **Code Repository:** [GitHub](https://github.com/Tasneem-Jahan-Farheen)  
