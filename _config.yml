@@ -1,14 +1,6 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
-
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "default"
 title                    : "Tasneem Jahan Farheen"
 title_separator          : "-"
 name                     : &name "Tasneem Jahan Farheen"
@@ -17,114 +9,88 @@ url                      : "https://Tasneem-Jahan.github.io"
 baseurl                  : ""
 repository               : "Tasneem-Jahan/Tasneem-Jahan.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#                If a field is blank the icon and link will not appear, otherwise it will be shown.
-#                Additional customization can be done by editing /_includes/author-profile.html
+# Site Author
 author:
-  # Biographic information
-  avatar            : "Tasneem-Jahan.jpg"
-  name              : "Tasneem Jahan Farheen"
-  pronouns          : "she/her"  
-  bio               : "M.Sc. Researcher in Machine Learning & Healthcare Informatics | Decentralized Learning & Clinical Decision Support"
-  location          : "Dhaka, Bangladesh"
-  employer          : 
-  uri               : 
-  email             : "tasneem_jahan@outlook.com"
+  avatar                 : "Tasneem-Jahan.jpg"
+  name                   : "Tasneem Jahan Farheen"
+  pronouns               : "she/her"
+  bio                    : "M.Sc. Researcher in Machine Learning & Healthcare Informatics | Decentralized Learning & Clinical Decision Support"
+  location               : "Dhaka, Bangladesh"
+  employer               :
+  uri                    :
+  email                  : "tasneem_jahan@outlook.com"
 
   # Academic websites
-  academia          : 
-  arxiv             : 
-  googlescholar     : 
-  inspire-hep       : 
-  impactstory       : 
-  orcid             : 
-  semantic          : 
-  ssrn              : 
-  pubmed            : 
-  researchgate      : 
-  scopus            : 
-  zotero            : 
+  academia               :
+  arxiv                  :
+  googlescholar          :
+  inspire-hep            :
+  impactstory            :
+  orcid                  :
+  semantic               :
+  ssrn                   :
+  pubmed                 :
+  researchgate           :
+  scopus                 :
+  zotero                 :
 
   # Repositories and software development
-  bitbucket         : 
-  codepen           : 
-  dribbble          : 
-  github            : "Tasneem-Jahan"
-  kaggle            : 
-  stackoverflow     : 
+  bitbucket              :
+  codepen                :
+  dribbble               :
+  github                 : "Tasneem-Jahan-Farheen"
+  kaggle                 :
+  stackoverflow          :
 
   # Social media
-  artstation        : 
-  bluesky           : 
-  facebook          : 
-  flickr            : 
-  foursquare        : 
-  goodreads         : 
-  google_plus       : 
-  keybase           : 
-  instagram         : 
-  lastfm            : 
-  linkedin          : "tasneem-jahan-farheen"
-  mastodon          : 
-  medium            : 
-  pinterest         : 
-  soundcloud        : 
-  steam             : 
-  telegram          : 
-  tumblr            : 
-  twitter           : 
-  vine              : 
-  weibo             : 
-  wikipedia         : 
-  xing              : 
-  youtube           : 
-  zhihu             : 
+  artstation             :
+  bluesky                :
+  facebook               :
+  flickr                 :
+  foursquare             :
+  goodreads              :
+  google_plus            :
+  keybase                :
+  instagram              :
+  lastfm                 :
+  linkedin               : "tasneem-jahan-farheen"
+  mastodon               :
+  medium                 :
+  pinterest              :
+  soundcloud             :
+  steam                  :
+  telegram               :
+  tumblr                 :
+  twitter                :
+  vine                   :
+  weibo                  :
+  wikipedia              :
+  xing                   :
+  youtube                :
+  zhihu                  :
 
-# Publication Category - The following the list of publication categories and their headings
+# Publication Category
 publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
-breadcrumbs              : false # true, false (default)
+teaser                   :
+breadcrumbs              : false
 words_per_minute         : 160
 future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      # change to true to add link to talkmap on talks page
+read_more                : "disabled"
+talkmap_link             : false
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601"
+  provider               : false
+
 atom_feed:
-  hide                   : false
-  path                   : 
+  hide                   : true
+  path                   :
 
 # SEO Related
 google_site_verification :
@@ -134,24 +100,22 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : 
+  username               :
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : 
-og_description           : 
+og_image                 :
+og_description           :
 
 social:
-  type                   : 
-  name                   : 
-  links: 
+  type                   :
+  name                   :
+  links                  :
 
 # Analytics
 analytics:
   provider               : "false"
-  google:
-    tracking_id          :
 
 # Reading Files
 include:
