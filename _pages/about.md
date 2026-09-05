@@ -45,11 +45,10 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
 
 ### Featured Research
 
-* **Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data**  
-  Proposed a split learning framework for diabetes risk prediction across heterogeneous clinical tabular datasets. Designed and evaluated logit-level and encoder-level distillation strategies under extreme few-shot supervision, benchmarking MLP, SAINT, and TabM student models.  
-  [[Thesis PDF]](https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58)
+* **[Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data]({{ site.url }}{{ site.baseurl }}/research/knowledge-distillation-split-learning/)**  
+  A split learning framework with logit-level and encoder-level knowledge distillation for heterogeneous clinical tabular datasets.
 
-* **Heart Disease Prediction Using Machine Learning**  
-  Conducted a comparative study of five machine learning classifiers (KNN, Naïve Bayes, SVM, Logistic Regression, Random Forest) on integrated multi-source clinical datasets using 10-fold cross-validation and ROC-AUC analysis.
+* **[Heart Disease Prediction Using Machine Learning]({{ site.url }}{{ site.baseurl }}/research/heart-disease-prediction/)**  
+  A comparative evaluation of five ML classifiers on multi-source clinical datasets using cross-validation and ROC-AUC optimization.
 
-For full-stack and applied data engineering work, see my [Projects]({{ site.url }}{{ site.baseurl }}/portfolio/) page.
+For my applied and engineering projects, see [Projects]({{ site.url }}{{ site.baseurl }}/portfolio/).
