@@ -16,6 +16,9 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
 
 *I also bring a working foundation in full-stack software development and data engineering.*
 
+[Download CV]({{ site.url }}{{ site.baseurl }}/files/CV_Tasneem_Jahan_Farheen.pdf){: .btn .btn--primary}
+[Email Me](mailto:tasneem_jahan@outlook.com){: .btn .btn--info}
+
 ---
 
 ### Research Interests
@@ -31,7 +34,8 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
 
 * **M.Sc. in Computer Science and Engineering** | BRAC University *(2024 – 2026)*
   * *Thesis:* Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data
-  * *Recognition:* 40% Merit-Based Academic Scholarship
+  * *Honors:* 40% Merit-Based Academic Scholarship
+
 * **B.Sc. in Computer Science and Engineering** | American International University-Bangladesh (AIUB) *(2019 – 2023)*
   * *Major:* Software Engineering
   * *Thesis:* Heart Disease Prediction Using Machine Learning
@@ -39,7 +43,7 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
 
 ---
 
-### Featured Research & Projects
+### Featured Research
 
 * **Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data**  
   Proposed a split learning framework for diabetes risk prediction across heterogeneous clinical tabular datasets. Designed and evaluated logit-level and encoder-level distillation strategies under extreme few-shot supervision, benchmarking MLP, SAINT, and TabM student models.  
@@ -48,8 +52,4 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
 * **Heart Disease Prediction Using Machine Learning**  
   Conducted a comparative study of five machine learning classifiers (KNN, Naïve Bayes, SVM, Logistic Regression, Random Forest) on integrated multi-source clinical datasets using 10-fold cross-validation and ROC-AUC analysis.
 
-* **E-Commerce Customer Retention & Behavioral Segmentation Engine**  
-  Engineered an analytics pipeline using multi-table SQL joins on transactional data. Contrasted rule-based RFM quantile segmentation with machine learning-driven $K$-Means clustering, optimizing clusters via log-transformations, the Elbow Method, and a custom multi-metric fitness score.
-
-* **Weather API Data Pipeline & Power BI Dashboard**  
-  Built an automated Python ETL pipeline ingesting hourly weather observations from the Open-Meteo API, performed SQL-based trend analysis on meteorological variables, and developed an interactive Power BI dashboard for KPI tracking.
+For full-stack and applied data engineering work, see my [Projects]({{ site.url }}{{ site.baseurl }}/portfolio/) page.
