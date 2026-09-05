@@ -152,15 +152,22 @@
 
   img {
     width: 100%;
-    max-width: 175px;
+    max-width: 190px;              // CHANGED: slightly larger (was 175px) so the photo carries more visual weight
     aspect-ratio: 1 / 1;
     object-fit: cover;
     object-position: center top;
-    border-radius: 4px;
+    border-radius: 50%;            // CHANGED: circular crop (was 4px) — standard for academic profile photos
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18); // ADDED: subtle depth so the photo lifts off the flat sidebar
+    transition: transform 0.25s ease, box-shadow 0.25s ease; // ADDED: smooth hover feedback
 
     @include breakpoint($large) {
       padding: 4px;
-      border: 1px solid var(--global-border-color);
+      border: 3px solid var(--global-bg-color); // CHANGED: thicker border, matches page background so the circle reads as a frame
+    }
+
+    &:hover {                      // ADDED: gentle hover interaction
+      transform: scale(1.04);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.24);
     }
   }
 }
@@ -185,7 +192,7 @@
 
   @include breakpoint($large) {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 6px;            // CHANGED: tighter gap (was 10px) so pronouns sit closer to the name, reading as one unit
   }
 }
 
@@ -203,10 +210,13 @@
 
 .author__pronouns {
   margin: 0;
+  font-size: $type-size-7;          // ADDED: smaller than body text (was inheriting default size)
+  color: var(--global-text-color-light, #6b6b6b); // ADDED: muted gray instead of full-strength text color
+  font-style: italic;               // ADDED: visually demotes it below the name without hiding it
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0;                  // CHANGED: sits flush under name (was 10px top margin, floating it apart)
+    margin-bottom: 14px;
   }
 }
 
