@@ -45,6 +45,22 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
 
 ### Featured Research
 
+---
+layout: archive
+title: "Portfolio"
+permalink: /portfolio/
+author_profile: true
+---
+
+{% include base_path %}
+
+
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
+
+
+
 * **Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data**  
   Proposed a split learning framework for diabetes risk prediction across heterogeneous clinical tabular datasets. Designed and evaluated logit-level and encoder-level distillation strategies under extreme few-shot supervision, benchmarking MLP, SAINT, and TabM student models.  
   [[Thesis PDF]](https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58)
