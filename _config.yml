@@ -228,13 +228,6 @@ defaults:
       author_profile: true
       share: true
       comment: true
-    - scope:
-      path: ""
-      type: portfolio
-    values:
-      author_profile: true
-      share: true
-      comment: true
   - scope:
       path: ""
       type: research
