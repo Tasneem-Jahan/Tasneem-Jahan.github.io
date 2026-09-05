@@ -1,7 +1,8 @@
 ---
 title: "Heart Disease Prediction Using Machine Learning"
 excerpt: "A comparative evaluation of five ML classifiers on multi-source clinical datasets using cross-validation and ROC-AUC optimization."
-collection: portfolio
+collection: research
+permalink: /research/heart-disease-prediction/
 date: 2023-05-22
 ---
 
