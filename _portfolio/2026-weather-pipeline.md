@@ -5,7 +5,7 @@ collection: portfolio
 date: 2026-08-03
 ---
 
-**Code Repository:** [GitHub](https://github.com/Tasneem-Jahan-Farheen)  
+**Code Repository:** [GitHub](https://github.com/Tasneem-Jahan/weather-api-data-pipeline)  
 
 ### Project Overview
 Engineered an end-to-end Python ETL pipeline to ingest, clean, and analyze continuous meteorological data.
