@@ -17,7 +17,7 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
 *I also bring a working foundation in full-stack software development and data engineering.*
 
 [Download CV]({{ site.url }}{{ site.baseurl }}/files/CV_Tasneem_Jahan_Farheen.pdf){: .btn .btn--primary}
-[Email Me](mailto:tasneem_jahan@outlook.com){: .btn .btn--info}
+[Email Me](mailto:farheentasneemjahan@gmail.com){: .btn .btn--info}
 
 ---
 
