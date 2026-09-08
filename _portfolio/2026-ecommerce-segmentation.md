@@ -5,7 +5,7 @@ collection: portfolio
 date: 2026-07-15
 ---
 
-**Code Repository:** [GitHub](https://github.com/Tasneem-Jahan-Farheen)  
+**Code Repository:** [GitHub](https://github.com/Tasneem-Jahan/weather-api-data-pipeline)  
 
 ### Project Overview
 Built an end-to-end e-commerce analytics pipeline transforming raw transactional data into actionable marketing intelligence.
