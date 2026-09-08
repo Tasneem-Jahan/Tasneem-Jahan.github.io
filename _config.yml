@@ -77,6 +77,8 @@ publication_category:
     title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
+  thesis:
+    title: 'Thesis'
 
 # Site Settings
 teaser                   :
