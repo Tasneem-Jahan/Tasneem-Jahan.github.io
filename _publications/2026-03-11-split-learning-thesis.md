@@ -6,7 +6,6 @@ permalink: /publication/2026-03-04-split-learning-thesis
 excerpt: "Master's Thesis exploring logit-level and encoder-level knowledge distillation in split learning architectures for clinical tabular datasets."
 date: 2026-03-04
 venue: "BRAC University Institutional Repository (DSpace)"
-paperurl: "https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58"
 citation: 'Tasneem Jahan Farheen. (2026). "Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data." M.Sc. Thesis, Department of Computer Science and Engineering, BRAC University.'
 ---
 
