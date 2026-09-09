@@ -1,11 +1,3 @@
-/* ==========================================================================
-   SIDEBAR
-   ========================================================================== */
-
-/*
-   Default
-   ========================================================================== */
-
 .sidebar {
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
@@ -27,17 +19,27 @@
   @include breakpoint($large) {
     @include span(2 of 12);
     opacity: 1;
-    -webkit-transition: opacity 0.2s ease-in-out;
-            transition: opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out, box-shadow 0.25s ease-in-out;
+            transition: opacity 0.2s ease-in-out, box-shadow 0.25s ease-in-out;
+
+    /* Shadow and Card Styling */
+    background-color: var(--global-bg-color, #fff);
+    padding: 1.25rem 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08), 
+                0 1px 3px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.05);
 
     &:hover {
       opacity: 1;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12), 
+                  0 2px 6px rgba(0, 0, 0, 0.06);
     }
   }
 
   @include breakpoint($x-large) {
     max-width: $sidebar-link-max-width;
-    padding-right: 0;
+    padding-right: 1rem;
   }
 
   h2, h3, h4, h5, h6 {
@@ -57,279 +59,5 @@
 
   img {
     width: 100%;
-  }
-}
-
-.sidebar__right {
-  margin-bottom: 1em;
-
-  @include breakpoint($large) {
-    position: relative;
-    float: right;
-    width: $right-sidebar-width-narrow;
-    margin-left: span(0.5 of 12);
-    z-index: 10;
-  }
-
-  @include breakpoint($x-large) {
-    width: $right-sidebar-width;
-  }
-}
-
-/*
-   Table of contents
-   ========================================================================== */
-
-.toc {
-  background-color: var(--global-bg-color);
-  border: 1px solid var(--global-border-color);
-  border-radius: $border-radius;
-  box-shadow: $box-shadow;
-  padding: 1em;
-
-  .nav__title {
-    color: var(--global-text-color);
-    font-size: $type-size-6;
-    background: transparent;
-    border: 0;
-    padding: 0;
-  }
-
-  .toc__menu {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    list-style: none;
-    font-size: $type-size-6;
-
-    a {
-      display: block;
-      padding: 0.25rem 0;
-      color: var(--global-text-color);
-      font-size: $type-size-7;
-      font-weight: normal;
-      line-height: 1.5;
-      border-bottom: 0;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-
-    > li > a {
-      font-weight: bold;
-    }
-
-    li ul > li a {
-      padding-left: 1rem;
-      font-weight: normal;
-    }
-
-    li ul li ul > li a {
-      padding-left: 2rem;
-    }
-
-    li ul li ul li ul > li a {
-      padding-left: 3rem;
-    }
-  }
-}
-
-/*
-   Author profile and links
-   ========================================================================== */
-
-.author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 26px;
-
-  @include breakpoint($large) {
-    display: block;
-    width: auto;
-    height: auto;
-  }
-
-  img {
-    width: 100%;
-    max-width: 190px;              // CHANGED: slightly larger (was 175px) so the photo carries more visual weight
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    object-position: center top;
-    border-radius: 50%;            // CHANGED: circular crop (was 4px) — standard for academic profile photos
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18); // ADDED: subtle depth so the photo lifts off the flat sidebar
-    transition: transform 0.25s ease, box-shadow 0.25s ease; // ADDED: smooth hover feedback
-
-    @include breakpoint($large) {
-      padding: 4px;
-      border: 3px solid var(--global-bg-color); // CHANGED: thicker border, matches page background so the circle reads as a frame
-    }
-
-    &:hover {                      // ADDED: gentle hover interaction
-      transform: scale(1.04);
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.24);
-    }
-  }
-}
-
-.author__content {
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 15px;
-  padding-right: 25px;
-  line-height: 1;
-
-  @include breakpoint($large) {
-    display: block;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-.author__name {
-  margin: 0;
-
-  @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 6px;            // CHANGED: tighter gap (was 10px) so pronouns sit closer to the name, reading as one unit
-  }
-}
-
-.sidebar .author__name {
-  font-family: $sans-serif;
-  font-size: $type-size-5;
-}
-
-.sidebar .author__desktop {
-  display: none;
-  @media screen and (min-width: 1024px) {
-    display: block;
-  }
-}
-
-.author__pronouns {
-  margin: 0;
-  font-size: $type-size-7;          // ADDED: smaller than body text (was inheriting default size)
-  color: var(--global-text-color-light, #6b6b6b); // ADDED: muted gray instead of full-strength text color
-  font-style: italic;               // ADDED: visually demotes it below the name without hiding it
-
-  @include breakpoint($large) {
-    margin-top: 0;                  // CHANGED: sits flush under name (was 10px top margin, floating it apart)
-    margin-bottom: 14px;
-  }
-}
-
-.author__bio {
-  margin: 0;
-
-  @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-}
-
-.author__urls-wrapper {
-  position: relative;
-  display: table-cell;
-  vertical-align: middle;
-  font-family: $sans-serif;
-  z-index: 10;
-  cursor: pointer;
-
-  li:last-child {
-    a {
-      margin-bottom: 0;
-    }
-  }
-
-  @include breakpoint($large) {
-    display: block;
-  }
-
-  button {
-    margin-bottom: 0;
-
-    @include breakpoint($large) {
-      display: none;
-    }
-  }
-}
-
-.author__urls {
-  display: none;
-  position: absolute;
-  right: 0;
-  margin-top: 15px;
-  padding: 10px;
-  list-style-type: none;
-  border: 1px solid var(--global-border-color);
-  border-radius: $border-radius;
-  background: var(--global-bg-color);
-  z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
-  cursor: default;
-
-  @include breakpoint($large) {
-    display: block;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
-  }
-
-  &:before {
-    display: block;
-    content: "";
-    position: absolute;
-    top: -11px;
-    left: calc(50% - 10px);
-    width: 0;
-    border-style: solid;
-    border-width: 0 10px 10px;
-    border-color: var(--global-border-color) transparent;
-    z-index: 0;
-
-    @include breakpoint($large) {
-      display: none;
-    }
-  }
-
-  &:after {
-    display: block;
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: calc(50% - 10px);
-    width: 0;
-    border-style: solid;
-    border-width: 0 10px 10px;
-    border-color: #fff transparent;
-    z-index: 1;
-
-    @include breakpoint($large) {
-      display: none;
-    }
-  }
-
-  li {
-    white-space: nowrap;
-  }
-
-  a {
-    display: block;
-    margin-bottom: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    color: inherit;
-    font-size: $type-size-5;
-    text-decoration: none !important;
-
-    &:hover {
-      text-decoration: underline !important;
-    }
   }
 }
