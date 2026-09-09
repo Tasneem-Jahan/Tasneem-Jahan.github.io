@@ -7,7 +7,7 @@ venue: "BRAC University"
 date: 2026-03-11
 location: "Dhaka, Bangladesh"
 ---
-**Event:** M.Sc. Thesis Defense Presentation
+** ** 
 
 ### Presentation Summary
 * Presented a split learning framework designed for diabetes risk prediction across heterogeneous clinical tabular datasets.
