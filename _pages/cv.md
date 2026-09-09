@@ -26,13 +26,11 @@ Education
 
 Awards & Honors
 ======
-* **Merit-Based Graduate Scholarship (40%)**  
-  *BRAC University, Dhaka, Bangladesh (May 2024)*  
-  Awarded for postgraduate studies based on undergraduate academic excellence.
+* **Merit-Based Graduate Scholarship (40%)** | BRAC University, Dhaka, Bangladesh (May 2024)*  
+* *Awarded for postgraduate studies based on undergraduate academic excellence.
 
-* **Dean's List Honor**  
-  *American International University-Bangladesh (2019 – 2023)*  
-  Faculty of Science and Technology (Awarded for 3 semesters).
+* **Dean's List Honor** | American International University-Bangladesh (2019 – 2023)*  
+* *Faculty of Science and Technology (Awarded for 3 semesters).
 
 Teaching Experience
 ======
