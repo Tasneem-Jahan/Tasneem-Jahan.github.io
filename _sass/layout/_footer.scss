@@ -11,17 +11,17 @@
   margin-top: 3em;
   width: 100%;
   clear: both;
-  /* keep footer in normal document flow so custom widgets do not overlap content */
   height: auto;
-  /* keep the footer on the bottom of the page */
-  position: fixed;
-  bottom: 0;
+
+  /* Let the footer flow naturally at the end of the page content */
+  position: relative;
+
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
   border-top: 1px solid var(--global-dark-border-color);
-  padding-top: 0.5em;               // ADDED: a bit of breathing room above the content
+  padding-top: 0.5em;
 
   footer {
     @include clearfix;
@@ -30,7 +30,7 @@
     margin-top: 1em;
     max-width: 100%;
     padding: 0 1em 1em;
-    text-align: center;             // ADDED: centers everything inside (icon row + copyright)
+    text-align: center;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -40,11 +40,11 @@
   a {
     color: inherit;
     text-decoration: none;
-    transition: color 0.2s ease;    // ADDED: smooth hover instead of an instant underline snap
+    transition: color 0.2s ease;
 
     &:hover {
-      color: var(--global-link-color-hover, #2b7a99); // ADDED: accent color on hover; falls back to a teal if the variable isn't defined in your theme
-      text-decoration: none;        // CHANGED: relies on the color shift instead of underline for a cleaner hover state
+      color: var(--global-link-color-hover, #2b7a99);
+      text-decoration: none;
     }
   }
 
@@ -57,7 +57,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* don't pin the footer on mobile devices */
   .page__footer {
     position: relative;
     bottom: auto;
@@ -68,8 +67,8 @@
   font-family: $global-font-family;
   font-size: $type-size-7;
   color: var(--global-text-color-light);
-  opacity: 0.75;                    // ADDED: softens the copyright line so it visually recedes below the links
-  margin-top: 0.5em;                // ADDED: separates it a touch more from the icon row above
+  opacity: 0.75;
+  margin-top: 0.5em;
 }
 
 .page__footer-follow {
@@ -77,10 +76,10 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    display: flex;                  // CHANGED: flex layout instead of relying on inline-block spacing
-    justify-content: center;        // ADDED: centers the row of icons/links
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 0.25em 0;                  // ADDED: consistent wrapping gap on narrow screens
+    gap: 0.25em 0;
   }
 
   li {
@@ -89,8 +88,8 @@
     padding-bottom: 5px;
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
-    text-transform: none;           // CHANGED: was uppercase — normal case reads calmer, less "shouty"
-    letter-spacing: 0.02em;         // ADDED: slight tracking to compensate visually for losing the caps
+    text-transform: none;
+    letter-spacing: 0.02em;
   }
 
   li + li:before {
@@ -100,7 +99,7 @@
 
   a {
     padding-right: 10px;
-    font-weight: 500;               // CHANGED: was bold — medium weight is less heavy against the muted footer background
+    font-weight: 500;
   }
 
   .social-icons {
