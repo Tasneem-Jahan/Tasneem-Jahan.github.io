@@ -2,8 +2,9 @@
 title: "Computer Science Teacher"
 collection: teaching
 type: "Middle School Instruction"
-permalink: /teaching/2024-mastermind-cs.md
+permalink: /teaching/computer-science-teacher/
 venue: "Mastermind English Medium School, Dhaka, Bangladesh"
+date: 2024-01-01
 location: "Dhaka, Bangladesh"
 ---
 
@@ -18,4 +19,4 @@ Design and deliver a full computer science curriculum for middle school students
 * **Curriculum Design:** Develop and deliver lesson plans spanning Python programming logic, Microsoft Excel (tables, formulas, chart-building), and introductory AI concepts, scaffolded for learners with no prior technical background.
 * **Applied Instruction:** Conduct weekly hands-on lab sessions pairing theory with mini-projects, improving measured hands-on skills by 85% based on structured assessments.
 * **Assessment Design:** Create and evaluate digital assessments to track academic progress, iterating on instructional approach based on results.
-* **Responsible AI Literacy:** Introduce students to how AI systems work and how to use them responsibly — an early, simplified version of the technology-and-ethics framing central to my own research interests.
+* **Responsible AI Literacy:** Introduce students to how AI systems work and how to use them responsibly, an early, simplified version of the technology-and-ethics framing central to my own research interests.
