@@ -2,17 +2,20 @@
 title: "Computer Science Teacher"
 collection: teaching
 type: "Middle School Instruction"
-permalink: /teaching/2024-mastermind-cs
-venue: "Mastermind English Medium School"
-date: 2024-01-15
+permalink: /teaching/computer-science-teacher
+venue: "Mastermind English Medium School, Dhaka, Bangladesh"
 location: "Dhaka, Bangladesh"
 ---
 
-**Role:** Computer Science Teacher
+**Role:** Computer Science Teacher  
 **Timeline:** January 2024 – Present  
-**Institution:** Mastermind English Medium School, Dhaka, Bangladesh 
+**Institution:** Mastermind English Medium School, Dhaka, Bangladesh
 
-### Responsibilities & Impact
-* Designed and delivered comprehensive curricula covering MS Office/Word, foundational Python programming, and introductory Artificial Intelligence concepts.
-* Conducted structured weekly lab sessions, improving practical hands-on technical competencies by 85% based on periodic assessments.
-* Developed, administered, and evaluated interactive digital assessments to monitor academic progress and computational thinking skills.
+### Overview
+Design and deliver a full computer science curriculum for middle school students, covering programming fundamentals, applied data skills, and foundational AI literacy — building the same instructional habits (structuring material for a target audience, assessing understanding, iterating on delivery) that carry directly into university-level teaching and mentoring.
+
+### Key Responsibilities
+* **Curriculum Design:** Develop and deliver lesson plans spanning Python programming logic, Microsoft Excel (tables, formulas, chart-building), and introductory AI concepts, scaffolded for learners with no prior technical background.
+* **Applied Instruction:** Conduct weekly hands-on lab sessions pairing theory with mini-projects, improving measured hands-on skills by 85% based on structured assessments.
+* **Assessment Design:** Create and evaluate digital assessments to track academic progress, iterating on instructional approach based on results.
+* **Responsible AI Literacy:** Introduce students to how AI systems work and how to use them responsibly — an early, simplified version of the technology-and-ethics framing central to my own research interests.
