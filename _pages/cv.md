@@ -24,6 +24,16 @@ Education
   * Applied 10-fold cross-validation and hyperparameter tuning, selecting the best-performing model via ROC-AUC analysis.
   * *Honors:* Dean's List, Faculty of Science and Technology (Received for 3 undergraduate semesters).
 
+Awards & Honors
+======
+* **Merit-Based Graduate Scholarship (40%)**  
+  *BRAC University, Dhaka, Bangladesh (May 2024)*  
+  Awarded for postgraduate studies based on undergraduate academic excellence.
+
+* **Dean's List Honor**  
+  *American International University-Bangladesh (2019 – 2023)*  
+  Faculty of Science and Technology (Awarded for 3 semesters).
+
 Teaching Experience
 ======
 * **Computer Science Teacher** | Mastermind English Medium School, Dhaka, Bangladesh *(Jan 2024 – Present)*
@@ -37,18 +47,6 @@ Industry & Development Experience
   * Built and maintained a Laravel-based PHP web application with a Vue.js front end, adhering to MVC architecture and object-oriented design patterns.
   * Optimized application code and MySQL database queries, improving end-to-end performance by 20%.
   * Managed Git version control workflows and supported deployment pipelines.
-
-Featured Projects
-======
-* **Weather API Data Pipeline & Power BI Dashboard**
-  * Built an automated Python ETL pipeline to ingest hourly observations from the Open-Meteo API, transform raw responses, and structure records for longitudinal analysis.
-  * Executed SQL analysis on meteorological variables (temperature, humidity, wind patterns) across temporal dimensions.
-  * Designed an interactive Power BI dashboard featuring KPI tracking and comparative multi-city visualizations.
-
-* **E-Commerce Customer Retention & Behavioral Segmentation Engine**
-  * Extracted and joined transaction, user, and product records using multi-table SQL queries to build a unified analytical dataset.
-  * Implemented and compared Rule-Based RFM quantile segmentation against ML-driven $K$-Means clustering optimized via the Elbow Method.
-  * Formulated a custom multi-metric Fitness Score to evaluate cluster separation and provide actionable customer behavioral insights.
 
 Technical Skills
 ======
