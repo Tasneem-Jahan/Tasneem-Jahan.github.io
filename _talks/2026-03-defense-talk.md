@@ -3,7 +3,7 @@ title: "Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabu
 collection: talks
 type: "M.Sc. Thesis Defense Presentation"
 permalink: /talks/2026-03-defense-talk
-venue: "BRAC University"
+venue: "BRAC University, Dhaka, Bangladesh"
 date: 2026-03-11
 location: "Dhaka, Bangladesh"
 ---
