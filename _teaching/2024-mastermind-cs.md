@@ -2,7 +2,7 @@
 title: "Computer Science Teacher"
 collection: teaching
 type: "Middle School Instruction"
-permalink: /teaching/computer-science-teacher
+permalink: /teaching/2024-mastermind-cs.md
 venue: "Mastermind English Medium School, Dhaka, Bangladesh"
 location: "Dhaka, Bangladesh"
 ---
