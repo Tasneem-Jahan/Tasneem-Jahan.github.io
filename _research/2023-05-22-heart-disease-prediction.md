@@ -7,7 +7,7 @@ date: 2023-05-22
 ---
 
 **Institution:** American International University-Bangladesh (AIUB)  
-**Project Type:** B.Sc. Undergraduate Thesis  
+**Project Type:** B.Sc. Thesis  
 **Location:** Dhaka, Bangladesh
 
 ### Project Overview
