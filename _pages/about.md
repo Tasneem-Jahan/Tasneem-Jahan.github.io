@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About Me"
-excerpt: "Prospective PhD student in Machine Learning and Healthcare Informatics. Research portfolio of Tasneem Jahan Farheen, highlighting split learning frameworks, knowledge distillation for tabular clinical datasets and uncertainty quantification."  
+excerpt: "Academic and research portfolio of Tasneem Jahan Farheen. Prospective PhD student in Machine Learning and Healthcare Informatics."
 author_profile: true
 redirect_from: 
   - /about/
