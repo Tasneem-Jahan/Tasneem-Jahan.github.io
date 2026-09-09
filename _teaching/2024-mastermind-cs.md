@@ -12,7 +12,7 @@ location: "Dhaka, Bangladesh"
 **Institution:** Mastermind English Medium School, Dhaka, Bangladesh
 
 ### Overview
-Design and deliver a full computer science curriculum for middle school students, covering programming fundamentals, applied data skills, and foundational AI literacy — building the same instructional habits (structuring material for a target audience, assessing understanding, iterating on delivery) that carry directly into university-level teaching and mentoring.
+Design and deliver a full computer science curriculum for middle school students, covering programming fundamentals, applied data skills, and foundational AI literacy, building the same instructional habits (structuring material for a target audience, assessing understanding, iterating on delivery) that carry directly into university level teaching and mentoring.
 
 ### Key Responsibilities
 * **Curriculum Design:** Develop and deliver lesson plans spanning Python programming logic, Microsoft Excel (tables, formulas, chart-building), and introductory AI concepts, scaffolded for learners with no prior technical background.
