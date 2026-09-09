@@ -8,6 +8,7 @@ date: 2023-05-22
 
 **Institution:** American International University-Bangladesh (AIUB)  
 **Project Type:** B.Sc. Undergraduate Thesis  
+**Location:** Dhaka, Bangladesh
 
 ### Project Overview
 Conducted an empirical comparative study evaluating machine learning algorithms to accurately predict heart disease risk across multi-source clinical healthcare datasets.
