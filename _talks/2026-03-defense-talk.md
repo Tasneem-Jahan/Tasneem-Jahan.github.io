@@ -6,7 +6,7 @@ permalink: /talks/2026-03-defense-talk/
 venue: "Department of Computer Science and Engineering, BRAC University"
 date: 2026-03-11
 location: "Dhaka, Bangladesh"
-slidesurl: "https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58"
+excerpt: "ju "
 ---
 
 **Event:** M.Sc. Thesis Defense  
