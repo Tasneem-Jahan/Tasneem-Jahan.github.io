@@ -5,8 +5,7 @@ type: "M.Sc. Thesis Defense"
 permalink: /talks/2026-03-defense-talk/
 venue: "Department of Computer Science and Engineering, BRAC University"
 date: 2026-03-11
-location: "Dhaka, Bangladesh"
-excerpt: "ju "
+location: "Dhaka, Bangladesh"  
 ---
 
 **Event:** M.Sc. Thesis Defense  
