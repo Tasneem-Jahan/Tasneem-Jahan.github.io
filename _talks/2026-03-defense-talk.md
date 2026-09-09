@@ -10,8 +10,6 @@ location: "Dhaka, Bangladesh"
 
 **Event:** M.Sc. in CSE Thesis Defense  
 **Supervisor:** Dr. Md. Golam Rabiul Alam  
-**Department:** Computer Science and Engineering  
-**Institution:** BRAC University
 
 ### Presentation Summary
 * Presented a split learning framework designed for diabetes risk prediction across heterogeneous clinical tabular datasets.
