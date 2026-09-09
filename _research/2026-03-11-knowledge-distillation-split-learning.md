@@ -7,7 +7,7 @@ date: 2026-03-11
 ---
 
 **Institution:** BRAC University  
-**Project Type:** M.Sc. Thesis
+**Project Type:** M.Sc. Thesis  
 **Location:** Dhaka, Bangladesh
 
 **Thesis Link:** [BRACU DSpace Repository](https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58)  
