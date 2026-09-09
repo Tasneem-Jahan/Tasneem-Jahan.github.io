@@ -26,9 +26,9 @@ Education
 
 Awards & Honors
 ======
-* **Merit-Based Graduate Scholarship (40%)**, BRAC University *(May 2024)*
+* **Merit-Based Graduate Scholarship (40%)** | BRAC University, Bangladesh *(May 2024)*
   * Awarded for postgraduate studies based on undergraduate academic excellence.
-* **Dean's List Honor**, Faculty of Science and Technology, AIUB *(2019 – 2023)*
+* **Dean's List Honor** | Faculty of Science and Technology, AIUB *(2019 – 2023)*
   * Recognized for outstanding academic performance across 3 semesters.
 
 Teaching Experience
