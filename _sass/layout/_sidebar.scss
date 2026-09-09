@@ -1,3 +1,7 @@
+/* ==========================================================================
+   SIDEBAR
+   ========================================================================== */
+
 .sidebar {
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
@@ -11,35 +15,25 @@
 
   @media screen and (min-width: $sidebar-screen-min-width) {
     height: 100vh;
-    overflow-y: auto;               // Add scrollbar if the sidebar is too long
+    overflow-y: auto;
     position: fixed;
     padding-top: $masthead-height;
   }
 
   @include breakpoint($large) {
-    @include span(2 of 12);
+    @include span(2.5 of 12); /* Slightly wider to prevent text clipping */
     opacity: 1;
-    -webkit-transition: opacity 0.2s ease-in-out, box-shadow 0.25s ease-in-out;
-            transition: opacity 0.2s ease-in-out, box-shadow 0.25s ease-in-out;
-
-    /* Shadow and Card Styling */
-    background-color: var(--global-bg-color, #fff);
-    padding: 1.25rem 1rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08), 
-                0 1px 3px rgba(0, 0, 0, 0.04);
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    -webkit-transition: opacity 0.2s ease-in-out;
+            transition: opacity 0.2s ease-in-out;
 
     &:hover {
       opacity: 1;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12), 
-                  0 2px 6px rgba(0, 0, 0, 0.06);
     }
   }
 
   @include breakpoint($x-large) {
     max-width: $sidebar-link-max-width;
-    padding-right: 1rem;
+    padding-right: 0;
   }
 
   h2, h3, h4, h5, h6 {
@@ -56,8 +50,15 @@
     font-size: $type-size-6;
     line-height: 1.5;
   }
+}
 
-  img {
-    width: 100%;
-  }
+/* Card Elevation & Shadow on the Profile Container */
+.author__profile {
+  background-color: var(--global-bg-color, #fff);
+  padding: 1.5rem 1.25rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08), 
+              0 1px 3px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  margin-bottom: 1.5rem;
 }
