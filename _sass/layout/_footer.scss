@@ -9,12 +9,10 @@
   clear: both;
   height: auto;
 
-  /* Keep footer fixed at the bottom edge of the screen */
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 999;
-  margin: 0;
+  /* Flow at the end of content instead of floating over screen */
+  position: relative;
+  margin-top: auto;
+  flex-shrink: 0;
 
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -56,12 +54,10 @@
   }
 }
 
-/* Maintain bottom pinning across mobile devices */
 @media screen and (max-width: 768px) {
   .page__footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    position: relative;
+    bottom: auto;
   }
 }
 
