@@ -47,33 +47,7 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
     <p class="research-card__desc">Split learning, federated learning, and knowledge distillation for distributed medical systems.</p>
   </div>
 </div>
-
 ---
-
-### Education
-
-* **M.Sc. in Computer Science and Engineering** | BRAC University *(2024 – 2026)*
-  * *Thesis:* Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data
-  * *Honors:* 40% Merit-Based Academic Scholarship
-
-* **B.Sc. in Computer Science and Engineering** | American International University-Bangladesh (AIUB) *(2019 – 2023)*
-  * *Major:* Software Engineering
-  * *Thesis:* Heart Disease Prediction Using Machine Learning
-  * *Honors:* Dean's List (3 Semesters)
-
----
-
-### Featured Research
-
-* **[Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data]({{ site.url }}{{ site.baseurl }}/research/knowledge-distillation-split-learning/)**  
-  A split learning framework with logit-level and encoder-level knowledge distillation for heterogeneous clinical tabular datasets.
-
-* **[Heart Disease Prediction Using Machine Learning]({{ site.url }}{{ site.baseurl }}/research/heart-disease-prediction/)**  
-  A comparative evaluation of five ML classifiers on multi-source clinical datasets using cross-validation and ROC-AUC optimization.
-
-For my applied and engineering projects, see [Projects]({{ site.url }}{{ site.baseurl }}/portfolio/).
-
-
 ### Featured Research
 
 <div class="featured-research-item">
