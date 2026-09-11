@@ -1,13 +1,9 @@
 ---
 title: "Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data"
 collection: publications
-category: thesis
 permalink: /publication/2026-03-04-split-learning-thesis
-excerpt: "Master's Thesis exploring logit-level and encoder-level knowledge distillation in split learning architectures for clinical tabular datasets."
 date: 2026-03-04
-venue: "BRAC University Institutional Repository (DSpace)"
-paperurl: "https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58"
-citation: "Farheen, T. J. (2026). Knowledge distillation in split learning for heterogeneous clinical tabular data [Master's thesis, BRAC University]. BRAC University Institutional Repository."
+venue: 'BRAC University Institutional Repository (DSpace)'
 tags:
   - Split Learning
   - Knowledge Distillation
@@ -15,5 +11,63 @@ tags:
   - PyTorch
 ---
 
+<div class="pub-citation">
+  <strong>Tasneem Jahan Farheen</strong><br>
+  <em>Master's Thesis</em> — BRAC University Institutional Repository (DSpace), 2026
+</div>
+
+<div class="research-tags">
+  <span class="research-tag">Split Learning</span>
+  <span class="research-tag">Knowledge Distillation</span>
+  <span class="research-tag">Tabular Deep Learning</span>
+  <span class="research-tag">Healthcare Informatics</span>
+  <span class="research-tag">PyTorch</span>
+</div>
+
+<div class="pub-actions">
+  <a href="https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58" target="_blank" rel="noopener">
+    <i class="fas fa-file-pdf"></i> Download Paper (DSpace)
+  </a>
+  <a href="https://github.com/Tasneem-Jahan" target="_blank" rel="noopener">
+    <i class="fab fa-github"></i> Code Repository
+  </a>
+  <a href="/talks/">
+    <i class="fas fa-chalkboard-teacher"></i> Defense Slides
+  </a>
+</div>
+
+<hr style="margin: 2em 0 1.5em 0; border: none; border-top: 1px solid var(--surface-border, #e2e8f0);">
+
+### Highlights & Key Findings
+
+* **Decentralized Knowledge Transfer:** Combines split learning with logit-level and latent encoder-level knowledge distillation, allowing multi-institution collaboration without sharing raw patient tabular records.
+* **Few-Shot Performance Boost:** Under extreme label scarcity, logit-level distillation transfers strong decision boundaries from population teacher models to lightweight target models, significantly lifting discriminative performance (ROC-AUC).
+* **Cross-Domain Calibration:** Encoder-level alignment minimizes feature divergence under clinical distribution shift, substantially improving probabilistic calibration (reducing overconfidence).
+* **Architecture Benchmark:** Explores both traditional MLPs and modern tabular transformer architectures (**SAINT**, **TabM**).
+
+---
+
 ### Abstract
-The growing availability of clinical data across institutions creates new opportunities for improved disease risk prediction. However, privacy regulations, institutional policies, and limited labeled data restrict centralized model training, particularly in low-resource settings. To address these challenges, this study presents a privacy-preserving framework that integrates split learning and knowledge distillation for diabetes risk prediction using heterogeneous tabular datasets. This work systematically evaluates two complementary transfer mechanisms. The first approach utilizes logit-level knowledge distillation to transfer predictive decision boundaries from high-capacity teacher models, collaboratively trained on large population datasets, to lightweight student models in low-resource target domains. The second approach implements encoder-level distillation to align latent feature representations within a split learning architecture. Both approaches maintain strict data privacy by keeping raw patient data local and exchanging only intermediate activations. Experimental results under few-shot supervision indicate that logit-level distillation substantially improves discriminative performance, particularly in extremely low-label scenarios while stabilizing training across heterogeneous domains. Encoder-level distillation further improves probabilistic calibration and representation alignment under cross-domain distribution shifts. These findings underscore the significance of structured knowledge transfer in privacy-preserving clinical machine learning and offer practical recommendations for deploying reliable models in heterogeneous healthcare environments.
+
+The growing availability of clinical data across institutions creates new opportunities for improved disease risk prediction. However, privacy regulations, institutional policies, and limited labeled data restrict centralized model training, particularly in low-resource settings. To address these challenges, this study presents a privacy-preserving framework that integrates split learning and knowledge distillation for diabetes risk prediction using heterogeneous tabular datasets.
+
+This work systematically evaluates two complementary transfer mechanisms:
+1. **Logit-Level Knowledge Distillation:** Transfers predictive decision boundaries from high-capacity teacher models collaboratively trained on large population datasets to lightweight student models in low-resource target domains.
+2. **Encoder-Level Knowledge Distillation:** Aligns latent feature representations within a split learning architecture.
+
+Both approaches maintain strict data privacy by keeping raw patient data local and exchanging only intermediate activations. Experimental results under few-shot supervision indicate that logit-level distillation substantially improves discriminative performance, particularly in extremely low-label scenarios while stabilizing training across heterogeneous domains. Encoder-level distillation further improves probabilistic calibration and representation alignment under cross-domain distribution shifts.
+
+---
+
+### Citation
+
+```bibtex
+@mastersthesis{farheen2026knowledge,
+  author  = {Farheen, Tasneem Jahan},
+  title   = {Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data},
+  school  = {BRAC University},
+  address = {Dhaka, Bangladesh},
+  year    = {2026},
+  month   = {March},
+  url     = {[https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58](https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58)}
+}
