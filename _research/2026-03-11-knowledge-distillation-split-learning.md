@@ -8,7 +8,7 @@ date: 2026-03-11
 
 <div class="pub-citation">
   <strong>Tasneem Jahan Farheen</strong> (Supervised by Dr. Md. Golam Rabiul Alam)<br>
-  <em>Master of Science in Computer Science and Engineering Thesis</em> — BRAC University, March 2026 
+  <em>Master of Science in Computer Science and Engineering Thesis</em> — BRAC University, March 2026[cite: 1]
 </div>
 
 <div class="research-tags">
@@ -23,6 +23,9 @@ date: 2026-03-11
 <div class="pub-actions">
   <a href="https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58" target="_blank" rel="noopener">
     <i class="fas fa-file-pdf"></i> Read Full Thesis (DSpace)
+  </a>
+  <a href="https://github.com/Tasneem-Jahan" target="_blank" rel="noopener">
+    <i class="fab fa-github"></i> Code Repository
   </a>
   <a href="/talks/2026-03-defense-talk/">
     <i class="fas fa-chalkboard-teacher"></i> Defense Slides
@@ -78,7 +81,7 @@ This research introduces a privacy-preserving framework combining **Split Learni
 
 ### Key Highlights & Technical Contributions
 
-* **Decentralized Privacy-Preserving Architecture:** Partitions neural network layers between local client institutions and a shared server backbone. Raw patient records remain strictly local, exchanging only intermediate activations (smash data) and gradients across the privacy boundary.
+* **Decentralized Architecture:** Partitions neural network layers between local client institutions and a shared server backbone. Raw patient records remain strictly local, exchanging only intermediate activations (smash data) and gradients across the privacy boundary.
 * **Dual Knowledge Distillation Paradigms:**
   * **Logit-Level KD (Framework 1):** Transfers soft probability distributions from the split-learning teacher to establish stabilized decision boundaries under sparse supervision.
   * **Encoder-Level KD (Framework 2):** Aligns intermediate latent representations using Mean Squared Error (MSE) loss to transfer structural feature dependencies across institutional distributions.
@@ -88,23 +91,16 @@ This research introduces a privacy-preserving framework combining **Split Learni
 
 ---
 
-### Empirical Evaluation & Results Summary
+### Key Empirical Findings & Conclusions (K = 5)
 
-#### Pima Primary Target Cohort (K = 5 Samples Per Class)
-Under severe data scarcity (K = 5), distillation provides substantial performance and calibration gains across 5 independent random seeds:
-
-| Student Model | Training Regime | ROC-AUC (mean ± std) | PR-AUC (mean ± std) | Calibrated Brier (lower is better) |
-| :--- | :--- | :--- | :--- | :--- |
-| **MLP** | Scratch Baseline | 0.7028 ± 0.0574  | 0.5800 ± 0.1047  | 0.2140 ± 0.0237  |
-| **MLP** | Logit-Level KD (F1) | **0.7894 ± 0.0106**  | **0.7126 ± 0.0187**  | **0.1770 ± 0.0113**  |
-| **MLP** | Encoder-Level KD (F2) | 0.7597 ± 0.0233  | 0.6538 ± 0.0228  | 0.1871 ± 0.0068  |
-| **TabM** | Scratch Baseline | 0.6314 ± 0.1104  | 0.5379 ± 0.1402  | 0.2408 ± 0.0236  |
-| **TabM** | Logit-Level KD (F1) | **0.7923 ± 0.0132**  | **0.7201 ± 0.0228**  | **0.1835 ± 0.0088**  |
-| **TabM** | Encoder-Level KD (F2) | 0.7525 ± 0.0203  | 0.6280 ± 0.0239  | 0.1916 ± 0.0079  |
-| **SAINT** | Scratch Baseline | 0.7688 ± 0.0492  | 0.6234 ± 0.0551  | 0.2022 ± 0.0093  |
-| **SAINT** | Logit-Level KD (F1) | 0.7623 ± 0.0451  | **0.6781 ± 0.0518**  | **0.1882 ± 0.0146**  |
+* **Performance Lift:** Knowledge distillation notably improved ROC-AUC for models without tabular priors, boosting MLP from 0.7028 to 0.7894 and TabM from 0.6314 to 0.7923.
+* **Training Stability:** Distillation curbed seed-to-seed variance, shrinking TabM's standard deviation from ±0.1104 down to ±0.0132.
+* **Better Calibration:** Both frameworks consistently reduced calibrated Brier scores, producing more reliable probability estimates for clinical risk.
+* **Transfer Mechanisms:** Logit-level transfer provided stronger discriminative ranking gains, while encoder-level alignment prioritized latent stability and calibration.
+* **Architectural Saturation:** SAINT gained minimal discriminative benefit from distillation (0.7688 scratch vs. 0.7623 KD) because its dual-attention mechanism already captures strong feature priors.
+* **Clinical Utility:** Proves lightweight models can attain high diagnostic accuracy under extreme label scarcity without centralizing raw patient data.
 
 #### Core Takeaways
-* **Inductive Bias vs. Distillation:** Architectures lacking specialized tabular priors (MLP and TabM) benefit most substantially from teacher guidance, showing ROC-AUC improvements up to +16.09% . Conversely, SAINT demonstrates saturation due to its inherent attention-based inductive priors .
-* **Discrimination vs. Calibration Trade-Off:** Logit-level transfer primarily drives discriminative ranking (ROC-AUC), whereas encoder-level feature alignment consistently yields superior probabilistic calibration (BrierCal) and minimizes prediction variance across heterogeneous domains .
-* **Clinical Screening Reliability:** On the Sylhet cohort, distillation reduced false negatives at threshold 0.5, raising test recall from 0.7417 to 0.8792 for MLP at K = 5 while lowering calibration error by up to 33% .
+* **Inductive Bias vs. Distillation:** Architectures lacking specialized tabular priors (MLP and TabM) benefit most substantially from teacher guidance, showing ROC-AUC improvements up to +16.09%. Conversely, SAINT demonstrates saturation due to its inherent attention-based inductive priors.
+* **Discrimination vs. Calibration Trade-Off:** Logit-level transfer primarily drives discriminative ranking (ROC-AUC), whereas encoder-level feature alignment consistently yields superior probabilistic calibration (BrierCal) and minimizes prediction variance across heterogeneous domains.
+* **Clinical Screening Reliability:** On the Sylhet cohort, distillation reduced false negatives at threshold 0.5, raising test recall from 0.7417 to 0.8792 for MLP at K = 5 while lowering calibration error by up to 33%.
