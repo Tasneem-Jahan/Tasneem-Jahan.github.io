@@ -3,7 +3,7 @@ title: "Weather API Data Pipeline & Power BI Dashboard"
 excerpt: "An automated Python ETL pipeline ingesting Open-Meteo observations with SQL relational modeling, longitudinal analytics, and an interactive Power BI dashboard."
 collection: portfolio
 permalink: /portfolio/2026-weather-pipeline/
-date: 2026-08-03
+date: 2026-08-07
 ---
 
 <div class="pub-citation">
@@ -36,7 +36,7 @@ date: 2026-08-03
 
 ### Project Overview
 
-This project implements an end-to-end automated data engineering pipeline designed to ingest, validate, and structure high-frequency meteorological time-series records from the **Open-Meteo REST API**. The pipeline automates data extraction, standardizes nested JSON responses, persists relational schemas into a SQL database, and powers an interactive **Power BI** dashboard for climate monitoring, diurnal tracking, and comparative cross-city analytics.
+This project implements an end-to-end automated data engineering pipeline designed to ingest, validate and structure high-frequency meteorological time-series records from the **Open-Meteo REST API**. The pipeline automates data extraction, standardizes nested JSON responses, persists relational schemas into a SQL database and powers an interactive **Power BI** dashboard for climate monitoring, diurnal tracking and comparative cross-city analytics.
 
 <div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 8px; margin: 24px 0; padding: 16px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; width: 100%; box-sizing: border-box; overflow-x: auto;">
   
@@ -78,18 +78,18 @@ This project implements an end-to-end automated data engineering pipeline design
 
 * **Automated Data Ingestion (API Extraction):**
   * Automated periodic polling of the Open-Meteo REST API across multi-city coordinate clusters (London, New York, Tokyo).
-  * Built defensive API request wrappers with connection timeout handling, exponential backoff retries, and HTTP response code validation.
+  * Built defensive API request wrappers with connection timeout handling, exponential backoff retries and HTTP response code validation.
 * **Data Transformation & Integrity (ETL Processing):**
   * Extracted and flattened nested JSON responses into clean pandas DataFrames.
   * Standardized measurement units (Celsius, percentage relative humidity, km/h wind velocity) and parsed ISO 8601 timestamps into aligned UTC/local datetime dimensions.
   * Enforced schema validation to drop null sensor records and prevent duplicate entry insertion.
 * **Relational Schema Design & Data Modeling (SQL):**
   * Modeled an analytical **Star Schema** separating Dimension entities (`Dim_City`, `Dim_Date`, `Dim_Condition`) from an aggregated Fact table (`Fact_Weather_Observations`).
-  * Enforced primary and foreign key integrity constraints, indexation on timestamp lookups, and idempotent upserts to ensure consistent runs.
+  * Enforced primary and foreign key integrity constraints, indexation on timestamp lookups and idempotent upserts to ensure consistent runs.
   * Formulated SQL aggregation scripts computing rolling 7-day temperature means, diurnal temperature spreads, and humidity variance.
 * **Business Intelligence & Reporting (Power BI & DAX):**
   * Established direct connectivity to the relational data store with scheduled refreshes.
-  * Formulated calculated measures in **DAX** to surface summary statistics, extreme anomaly alerts, and dynamic city-level benchmark cards.
+  * Formulated calculated measures in **DAX** to surface summary statistics, extreme anomaly alerts and dynamic city-level benchmark cards.
 
 ---
 
@@ -126,7 +126,3 @@ This project implements an end-to-end automated data engineering pipeline design
 | **Processing** | Python (`pandas`, `numpy`) | Data cleaning, type conversion, JSON flattening, UTC alignment |
 | **Storage** | PostgreSQL / SQL, SQLAlchemy | Dimensional modeling (Star Schema), relational constraints, aggregations |
 | **Analytics & UI** | Power BI, DAX | Metric engineering, time-series visualization, slicer controls |
-
-
-# Execute the ingestion and transformation workflow
-python main.py
