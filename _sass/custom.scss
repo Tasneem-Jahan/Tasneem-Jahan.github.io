@@ -69,8 +69,23 @@ blockquote {
 .archive__item {
   background-color: var(--surface-bg);
   border-radius: 8px;
-  padding: 1.2em;
-  margin-bottom: 1.2em;
+  padding: 1em 1.2em;              // CHANGED: was 1.2em, tightened
+  margin-bottom: 0.9em;            // CHANGED: was 1.2em
+
+  p {
+    font-size: 0.92em;             // ADDED: smaller body text within cards
+    line-height: 1.5;              // ADDED: slightly tighter line spacing
+    margin: 0.5em 0;               // ADDED: reduces gap between paragraphs
+  }
+
+  .archive__item-title {
+    font-size: 1.15em;             // ADDED: slightly smaller title
+    margin-bottom: 0.3em;          // ADDED: less space below title
+  }
+
+  .archive__item-excerpt {
+    margin: 0.4em 0;               // ADDED: tighter excerpt spacing
+  }
 }
 
 code,
@@ -228,20 +243,16 @@ kbd {
     border-bottom: none;
   }
 }
+
 /* ==========================================================================
    PUBLICATION ACTION BADGES
    ========================================================================== */
 
-.archive__item p:has(> a[href*="Download"]),
-.archive__item p > a {
-  // Style action links (Download Paper / Slides / Bibtex) as pill badges
-}
-
 .pub-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.6em;
-  margin-top: 0.8em;
+  gap: 0.5em;              // CHANGED: was 0.6em
+  margin-top: 0.3em;       // CHANGED: was 0.8em
 
   a {
     display: inline-flex;
@@ -249,9 +260,9 @@ kbd {
     gap: 0.4em;
     background: var(--accent-color);
     color: #fff !important;
-    font-size: 0.85em;
+    font-size: 0.8em;              // CHANGED: was 0.85em
     font-weight: 600;
-    padding: 0.4em 0.9em;
+    padding: 0.3em 0.7em;          // CHANGED: was 0.4em 0.9em
     border-radius: 6px;
     text-decoration: none !important;
     transition: background 0.2s ease;
@@ -263,10 +274,10 @@ kbd {
 }
 
 .pub-citation {
-  font-size: 0.88em;
+  font-size: 0.85em;               // CHANGED: was 0.88em
   color: var(--global-text-color-light);
-  margin-top: 0.6em;
-  line-height: 1.5;
+  margin: 0.4em 0 0.3em 0;         // CHANGED: was margin-top: 0.6em
+  line-height: 1.4;                // CHANGED: was 1.5
 
   strong {
     color: var(--global-text-color);
