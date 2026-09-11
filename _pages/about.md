@@ -22,10 +22,31 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
 
 ### Research Interests
 
-* **Agentic AI & Multimodal Clinical Decision Support**: Developing multi-agent retrieval-augmented generation (RAG) frameworks integrating electronic health records (EHR), medical imaging, and clinical notes.
-* **Uncertainty Quantification & Model Calibration**: Designing reliable uncertainty estimation methods so clinical agents flag limitations rather than making overconfident predictions in high-stakes environments.
-* **Algorithmic Fairness & Bias Mitigation**: Mitigating non-clinical proxy variable exploitation (e.g., insurance status, socioeconomic factors) to reduce disparities in healthcare ML.
-* **Decentralized & Privacy-Preserving Learning**: Split learning, federated learning, and knowledge distillation for distributed medical systems.
+<div class="research-grid">
+  <div class="research-card">
+    <i class="fas fa-network-wired research-card__icon" aria-hidden="true"></i>
+    <span class="research-card__title">Agentic AI &amp; Multimodal Clinical Decision Support</span>
+    <p class="research-card__desc">Developing multi-agent retrieval-augmented generation (RAG) frameworks integrating electronic health records (EHR), medical imaging, and clinical notes.</p>
+  </div>
+
+  <div class="research-card">
+    <i class="fas fa-chart-pie research-card__icon" aria-hidden="true"></i>
+    <span class="research-card__title">Uncertainty Quantification &amp; Model Calibration</span>
+    <p class="research-card__desc">Designing reliable uncertainty estimation methods so clinical agents flag limitations rather than making overconfident predictions in high-stakes environments.</p>
+  </div>
+
+  <div class="research-card">
+    <i class="fas fa-balance-scale research-card__icon" aria-hidden="true"></i>
+    <span class="research-card__title">Algorithmic Fairness &amp; Bias Mitigation</span>
+    <p class="research-card__desc">Mitigating non-clinical proxy variable exploitation (e.g., insurance status, socioeconomic factors) to reduce disparities in healthcare ML.</p>
+  </div>
+
+  <div class="research-card">
+    <i class="fas fa-shield-halved research-card__icon" aria-hidden="true"></i>
+    <span class="research-card__title">Decentralized &amp; Privacy-Preserving Learning</span>
+    <p class="research-card__desc">Split learning, federated learning, and knowledge distillation for distributed medical systems.</p>
+  </div>
+</div>
 
 ---
 
