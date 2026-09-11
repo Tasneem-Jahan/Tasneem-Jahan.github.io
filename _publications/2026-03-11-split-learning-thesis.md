@@ -1,7 +1,7 @@
 ---
 title: "Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data"
 collection: publications
-category: "thesis"
+category: "theses"
 permalink: /publication/2026-03-04-split-learning-thesis
 date: 2026-03-04
 venue: 'BRAC University Institutional Repository (DSpace)'
@@ -26,10 +26,10 @@ tags:
 </div>
 
 <div class="pub-actions">
-  <a href="[https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58](https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58)" target="_blank" rel="noopener">
+  <a href="https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58" target="_blank" rel="noopener">
     <i class="fas fa-file-pdf"></i> Download Paper (DSpace)
   </a>
-  <a href="[https://github.com/Tasneem-Jahan](https://github.com/Tasneem-Jahan)" target="_blank" rel="noopener">
+  <a href="https://github.com/Tasneem-Jahan" target="_blank" rel="noopener">
     <i class="fab fa-github"></i> Code Repository
   </a>
   <a href="/talks/">
@@ -37,7 +37,7 @@ tags:
   </a>
 </div>
 
-<hr style="margin: 2em 0 1.5em 0; border: none; border-top: 1px solid var(--surface-border, #e2e8f0);">
+---
 
 ### Highlights & Key Findings
 
@@ -53,6 +53,7 @@ tags:
 The growing availability of clinical data across institutions creates new opportunities for improved disease risk prediction. However, privacy regulations, institutional policies, and limited labeled data restrict centralized model training, particularly in low-resource settings. To address these challenges, this study presents a privacy-preserving framework that integrates split learning and knowledge distillation for diabetes risk prediction using heterogeneous tabular datasets.
 
 This work systematically evaluates two complementary transfer mechanisms:
+
 1. **Logit-Level Knowledge Distillation:** Transfers predictive decision boundaries from high-capacity teacher models collaboratively trained on large population datasets to lightweight student models in low-resource target domains.
 2. **Encoder-Level Knowledge Distillation:** Aligns latent feature representations within a split learning architecture.
 
@@ -70,5 +71,5 @@ Both approaches maintain strict data privacy by keeping raw patient data local a
   address = {Dhaka, Bangladesh},
   year    = {2026},
   month   = {March},
-  url     = {https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58}
+  url     = {[https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58](https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58)}
 }
