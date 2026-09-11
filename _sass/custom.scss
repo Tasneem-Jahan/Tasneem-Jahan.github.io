@@ -15,6 +15,13 @@ p,
 li,
 .page__content {
   font-family: var(--font-body);
+  font-size: 16px;                // ADDED: compensates for Inter's larger optical size
+  line-height: 1.6;               // ADDED
+}
+
+.page__content p,
+.page__content li {
+  font-size: 1rem;                // ADDED: keeps paragraph/list text at a normal reading size
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -22,6 +29,14 @@ h1, h2, h3, h4, h5, h6,
 .archive__item-title {
   font-family: var(--font-body);
   font-weight: 700;
+}
+
+.page__title {
+  font-size: 1.8em;                // ADDED: was rendering oversized with Inter's heading scale
+}
+
+h3 {
+  font-size: 1.3em;                // ADDED
 }
 
 a {
@@ -75,15 +90,17 @@ kbd {
    ========================================================================== */
 
 .phd-callout {
-  background: var(--surface-bg);
+  background: rgba(15, 118, 110, 0.08);   // CHANGED: teal-tinted highlight instead of flat gray
   border-radius: 8px;
   padding: 16px 20px;
   margin: 24px 0;
-  font-size: 1.02em;
+  font-size: 1rem;                         // CHANGED: was 1.02em, now matches the corrected base size
   line-height: 1.6;
 
   a {
+    color: var(--accent-color);            // ADDED: links inside the callout use the accent teal
     text-decoration: underline;
+    font-weight: 500;                      // ADDED
   }
 }
 
