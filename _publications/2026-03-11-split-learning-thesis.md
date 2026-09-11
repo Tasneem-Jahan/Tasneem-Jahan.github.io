@@ -1,6 +1,7 @@
 ---
 title: "Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data"
 collection: publications
+category: "theses"
 permalink: /publication/2026-03-04-split-learning-thesis
 date: 2026-03-04
 venue: 'BRAC University Institutional Repository (DSpace)'
@@ -25,10 +26,10 @@ tags:
 </div>
 
 <div class="pub-actions">
-  <a href="https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58" target="_blank" rel="noopener">
+  <a href="[https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58](https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58)" target="_blank" rel="noopener">
     <i class="fas fa-file-pdf"></i> Download Paper (DSpace)
   </a>
-  <a href="https://github.com/Tasneem-Jahan" target="_blank" rel="noopener">
+  <a href="[https://github.com/Tasneem-Jahan](https://github.com/Tasneem-Jahan)" target="_blank" rel="noopener">
     <i class="fab fa-github"></i> Code Repository
   </a>
   <a href="/talks/">
@@ -69,5 +70,5 @@ Both approaches maintain strict data privacy by keeping raw patient data local a
   address = {Dhaka, Bangladesh},
   year    = {2026},
   month   = {March},
-  url     = {[https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58](https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58)}
+  url     = {https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58}
 }
