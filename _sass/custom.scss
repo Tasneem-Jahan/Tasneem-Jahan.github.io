@@ -1,0 +1,71 @@
+/* ==========================================================================
+   CUSTOM OVERRIDES — MODERNIZED TYPOGRAPHY & COLOR PALETTE
+   ========================================================================== */
+
+:root {
+  --accent-color: #0f766e;        // deep slate teal
+  --accent-color-hover: #0d5d57;
+  --surface-bg: #f8fafc;          // subtle off-white for cards/blockquotes
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+body,
+p,
+li,
+.page__content {
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title {
+  font-family: var(--font-body);
+  font-weight: 700;
+}
+
+a {
+  color: var(--accent-color);
+
+  &:hover {
+    color: var(--accent-color-hover);
+  }
+}
+
+.btn--primary,
+.btn--info {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+
+  &:hover {
+    background-color: var(--accent-color-hover);
+    border-color: var(--accent-color-hover);
+  }
+}
+
+blockquote {
+  background-color: var(--surface-bg);
+  border-left: 4px solid var(--accent-color);
+  padding: 0.9em 1.3em;
+  margin: 1.5em 0;
+  border-radius: 4px;
+}
+
+.archive__item {
+  background-color: var(--surface-bg);
+  border-radius: 8px;
+  padding: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+code,
+pre,
+.tech-badge,
+kbd {
+  font-family: var(--font-mono);
+}
+
+.author__name {
+  font-family: var(--font-body);
+  font-weight: 700;
+}
