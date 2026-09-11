@@ -56,7 +56,7 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
     <span class="research-tag">Split Learning</span>
     <span class="research-tag">Knowledge Distillation</span>
     <span class="research-tag">PyTorch</span>
-    <span class="research-tag">Tabular Transformers</span>
+    <span class="research-tag">Tabular Deep Learning</span>
   </div>
   <p>A split learning framework with logit-level and encoder-level knowledge distillation for heterogeneous clinical tabular datasets.</p>
   <div class="research-links">
