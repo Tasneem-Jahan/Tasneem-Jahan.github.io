@@ -27,7 +27,7 @@ date: 2026-03-11
   <a href="/talks/2026-03-defense-talk/">
     <i class="fas fa-chalkboard-teacher"></i> Defense Slides
   </a>
-  <a href="/publication/2026-03-04-split-learning-thesis">
+  <a href="/publication/">
     <i class="fas fa-book-open"></i> Publication Entry
   </a>
 </div>
