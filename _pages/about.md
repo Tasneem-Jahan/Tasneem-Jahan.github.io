@@ -72,3 +72,36 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
   A comparative evaluation of five ML classifiers on multi-source clinical datasets using cross-validation and ROC-AUC optimization.
 
 For my applied and engineering projects, see [Projects]({{ site.url }}{{ site.baseurl }}/portfolio/).
+
+
+### Featured Research
+
+<div class="featured-research-item">
+  <strong><a href="{{ site.url }}{{ site.baseurl }}/research/knowledge-distillation-split-learning/">Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data</a></strong>
+  <div class="research-tags">
+    <span class="research-tag">Split Learning</span>
+    <span class="research-tag">Knowledge Distillation</span>
+    <span class="research-tag">PyTorch</span>
+    <span class="research-tag">Tabular Transformers</span>
+  </div>
+  <p>A split learning framework with logit-level and encoder-level knowledge distillation for heterogeneous clinical tabular datasets.</p>
+  <div class="research-links">
+    <a href="https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58">📄 Thesis</a>
+    <a href="{{ site.url }}{{ site.baseurl }}/research/knowledge-distillation-split-learning/">🔗 Overview</a>
+  </div>
+</div>
+
+<div class="featured-research-item">
+  <strong><a href="{{ site.url }}{{ site.baseurl }}/research/heart-disease-prediction/">Heart Disease Prediction Using Machine Learning</a></strong>
+  <div class="research-tags">
+    <span class="research-tag">Classification</span>
+    <span class="research-tag">Scikit-learn</span>
+    <span class="research-tag">Clinical Data</span>
+  </div>
+  <p>A comparative evaluation of five ML classifiers on multi-source clinical datasets using cross-validation and ROC-AUC optimization.</p>
+  <div class="research-links">
+    <a href="{{ site.url }}{{ site.baseurl }}/research/heart-disease-prediction/">🔗 Overview</a>
+  </div>
+</div>
+
+For my applied and engineering projects, see [Projects]({{ site.url }}{{ site.baseurl }}/portfolio/).
