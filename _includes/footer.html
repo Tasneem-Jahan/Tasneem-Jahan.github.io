@@ -1,7 +1,8 @@
 {% include base_path %}
 
 <div class="page__footer-follow">
-  <ul class="social-icons">
+  <ul>
+    <li class="follow-label">Follow:</li>
     {% if site.author.github %}
       <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
     {% endif %}
@@ -9,7 +10,7 @@
 </div>
 
 <div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, powered by Jekyll &amp; <a href="https://academicpages.github.io/">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/">Minimal Mistakes</a>.
+  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, Powered by Jekyll &amp; <a href="https://academicpages.github.io/">AcademicPages</a>, a fork of Minimal Mistakes.
   <br>
   Site last updated {{ site.time | date: '%Y-%m-%d' }}, <a href="{{ base_path }}/sitemap.xml">Sitemap</a>
 </div>
