@@ -79,7 +79,7 @@ Engineered an automated, end-to-end Python ETL data pipeline designed to ingest,
   <!-- Caption & Direct Download Button -->
   <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem;">
     <p style="font-size: 0.85rem; color: #64748b; margin: 0; text-align: left;">
-      <em>Figure 1: Power BI interactive reporting suite monitoring 530+ observations across London, New York, and Tokyo.</em>
+      <em>Figure 1: Power BI interactive reporting suite monitoring real-time meteorological observations across London, New York and Tokyo.</em>
     </p>
   </div>
 
