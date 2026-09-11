@@ -10,14 +10,16 @@ redirect_from:
 
 I am a Master's graduate in Computer Science and Engineering from BRAC University, specializing in machine learning for healthcare informatics.
 
-> **Prospective PhD Student:** I am actively seeking PhD opportunities in Machine Learning and Healthcare Informatics starting **Fall 2027**.
+<div class="phd-callout">
+  <strong>🎯 Prospective PhD Student:</strong> Actively seeking PhD opportunities in Machine Learning &amp; Healthcare Informatics for <strong>Fall 2027</strong>.
+</div>
 
 In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous clinical tabular data, evaluating logit-level and encoder-level knowledge distillation under few-shot supervision with MLP, SAINT, and TabM architectures. My B.Sc. thesis evaluated machine learning classifiers for heart disease risk prediction across multi-source clinical datasets using rigorous cross-validation, hyperparameter tuning, and ROC-AUC metrics.
 
 *I also bring a working foundation in full-stack software development and data engineering.*
 
 [Download CV]({{ site.url }}{{ site.baseurl }}/files/CV_Tasneem_Jahan_Farheen.pdf){: .btn .btn--primary}
-[Email Me](mailto:farheentasneemjahan@gmail.com){: .btn .btn--info}
+[Email Me](mailto:farheentasneemjahan@gmail.com){: .btn .btn--outline}
 
 ---
 
