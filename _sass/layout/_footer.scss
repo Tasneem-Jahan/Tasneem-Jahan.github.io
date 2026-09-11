@@ -30,7 +30,7 @@
     margin-top: 0.5em;
     max-width: 100%;
     padding: 0 1em 0.75em;
-    text-align: center;
+    text-align: left;              // CHANGED: was center
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -71,17 +71,33 @@
   color: var(--global-text-color-light);
   opacity: 0.75;
   margin-top: 0.3em;
+  text-align: left;                // ADDED
+  line-height: 1.8;                // ADDED: matches the airy spacing in the reference
+
+  a {
+    text-decoration: underline;    // ADDED: reference links appear underlined in the copyright block
+  }
 }
 
 .page__footer-follow {
   ul {
-    margin: 0;
+    margin: 0 0 0.75em 0;          // CHANGED: added bottom margin to separate from copyright block
     padding: 0;
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;   // CHANGED: was center
+    align-items: center;
     flex-wrap: wrap;
     gap: 0.25em 0;
+  }
+
+  .follow-label {                  // ADDED: styling for the "Follow:" label
+    font-family: $sans-serif-narrow;
+    font-size: $type-size-6;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+    padding-right: 5px;
   }
 
   li {
@@ -90,7 +106,7 @@
     padding-bottom: 5px;
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
-    text-transform: none;
+    text-transform: uppercase;     // CHANGED: was none
     letter-spacing: 0.02em;
   }
 
@@ -101,7 +117,7 @@
 
   a {
     padding-right: 10px;
-    font-weight: 500;
+    font-weight: bold;              // CHANGED: was 500
   }
 
   .social-icons {
