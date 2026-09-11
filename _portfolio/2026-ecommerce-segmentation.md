@@ -21,7 +21,7 @@ date: 2026-07-20
 </div>
 
 <div class="pub-actions">
-  <a href="https://github.com/Tasneem-Jahan" target="_blank" rel="noopener">
+  <a href="https://github.com/Tasneem-Jahan/rfm-customer-segmentation-engine" target="_blank" rel="noopener">
     <i class="fab fa-github"></i> View GitHub Repository
   </a>
   <a href="#clustering-workflow">
@@ -110,7 +110,3 @@ This project implements an end-to-end unsupervised customer segmentation pipelin
 | **Manipulation** | Pandas, NumPy | Aggregations, matrix operations, log transformations |
 | **Machine Learning** | Scikit-Learn | K-Means, PCA, StandardScaler, Silhouette Metrics |
 | **Visualization** | Seaborn, Matplotlib | Radar plots, 2D/3D cluster scatter plots, Elbow curves |
-
-# Install dependencies and launch the notebook
-pip install -r requirements.txt
-jupyter notebook notebooks/segmentation_pipeline.ipynb
