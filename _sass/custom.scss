@@ -75,13 +75,16 @@ kbd {
    ========================================================================== */
 
 .phd-callout {
-  background: rgba(15, 118, 110, 0.08);   // matches --accent-color at low opacity
-  border-left: 4px solid var(--accent-color);
-  padding: 12px 18px;
-  border-radius: 6px;
+  background: var(--surface-bg);
+  border-radius: 8px;
+  padding: 16px 20px;
   margin: 24px 0;
   font-size: 1.02em;
   line-height: 1.6;
+
+  a {
+    text-decoration: underline;
+  }
 }
 
 .btn--outline {
