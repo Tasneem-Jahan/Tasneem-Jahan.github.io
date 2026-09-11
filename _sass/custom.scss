@@ -3,9 +3,11 @@
    ========================================================================== */
 
 :root {
-  --accent-color: #0f766e;        // deep slate teal
+  --accent-color: #0f766e;        /* deep slate teal */
   --accent-color-hover: #0d5d57;
-  --surface-bg: #eef1f4;          // subtle darker gray for cards/blockquotes
+  --surface-bg: #f8fafc;          /* clean, subtle card background */
+  --surface-border: #e2e8f0;
+  --text-muted: #64748b;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 }
@@ -41,6 +43,7 @@ h3 {
 
 a {
   color: var(--accent-color);
+  transition: color 0.15s ease;
 
   &:hover {
     color: var(--accent-color-hover);
@@ -51,6 +54,9 @@ a {
 .btn--info {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 8px 16px;
 
   &:hover {
     background-color: var(--accent-color-hover);
@@ -68,30 +74,37 @@ blockquote {
 
 .list__item,
 .grid__item {
-  margin-top: 0;              // ADDED: removes any inherited top spacing above each card
-  padding-top: 0;             // ADDED
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .archive__item {
   background-color: var(--surface-bg);
+  border: 1px solid var(--surface-border);
   border-radius: 8px;
-  padding: 0.7em 1.2em 1em;   // CHANGED: reduced top padding specifically (was 1em 1.2em uniform)
-  margin-bottom: 0.9em;
+  padding: 1em 1.2em;
+  margin-bottom: 1em;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
 
   p {
     font-size: 0.92em;
-    line-height: 1.5;
+    line-height: 1.55;
     margin: 0.5em 0;
   }
 
   .archive__item-title {
     font-size: 1.15em;
-    margin-top: 1.2em;             // ADDED: removes the heading's default top margin
-    margin-bottom: 0.3em;
+    margin-top: 0;           /* Fixed: eliminated unwanted excess top gap */
+    margin-bottom: 0.35em;
   }
 
   .archive__item-excerpt {
     margin: 0.4em 0;
+    color: #475569;
   }
 }
 
@@ -113,6 +126,7 @@ kbd {
 
 .phd-callout {
   background: rgba(15, 118, 110, 0.08);
+  border-left: 4px solid var(--accent-color);
   border-radius: 8px;
   padding: 16px 20px;
   margin: 24px 0;
@@ -122,14 +136,14 @@ kbd {
   a {
     color: var(--accent-color);
     text-decoration: underline;
-    font-weight: 500;
+    font-weight: 600;
   }
 }
 
 .btn--outline {
   display: inline-block;
   background: transparent;
-  color: var(--global-text-color) !important;
+  color: #334155 !important;
   border: 1px solid #cbd5e1;
   padding: 8px 16px;
   border-radius: 8px;
@@ -141,12 +155,6 @@ kbd {
     border-color: var(--accent-color);
     color: var(--accent-color) !important;
   }
-}
-
-.btn--primary {
-  border-radius: 8px;
-  font-weight: 500;
-  padding: 8px 16px;
 }
 
 /* ==========================================================================
@@ -166,18 +174,18 @@ kbd {
 
 .research-card {
   background: var(--surface-bg);
-  border: 1px solid var(--global-border-color);
+  border: 1px solid var(--surface-border);
   border-radius: 10px;
   padding: 1.4em;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 
   &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
   }
 
   .research-card__icon {
-    font-size: 1.6em;
+    font-size: 1.5em;
     color: var(--accent-color);
     margin-bottom: 0.5em;
     display: block;
@@ -193,7 +201,7 @@ kbd {
   .research-card__desc {
     font-size: 0.92em;
     line-height: 1.5;
-    color: var(--global-text-color-light);
+    color: var(--text-muted);
     margin: 0;
   }
 }
@@ -211,11 +219,11 @@ kbd {
 
 .research-tag {
   display: inline-block;
-  background: rgba(15, 118, 110, 0.1);
+  background: rgba(15, 118, 110, 0.09);
   color: var(--accent-color);
   font-size: 0.78em;
   font-weight: 600;
-  padding: 0.25em 0.7em;
+  padding: 0.22em 0.65em;
   border-radius: 999px;
   white-space: nowrap;
 }
@@ -243,7 +251,7 @@ kbd {
 .featured-research-item {
   margin-bottom: 1.8em;
   padding-bottom: 1.5em;
-  border-bottom: 1px solid var(--global-border-color);
+  border-bottom: 1px solid var(--surface-border);
 
   &:last-of-type {
     border-bottom: none;
@@ -258,34 +266,36 @@ kbd {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5em;
-  margin-top: 0.3em;
+  margin-top: 0.5em;
 
   a {
     display: inline-flex;
     align-items: center;
     gap: 0.4em;
     background: var(--accent-color);
-    color: #fff !important;
+    color: #ffffff !important;
     font-size: 0.8em;
     font-weight: 600;
-    padding: 0.3em 0.7em;
+    padding: 0.35em 0.75em;
     border-radius: 6px;
     text-decoration: none !important;
-    transition: background 0.2s ease;
+    transition: background 0.2s ease, transform 0.15s ease;
 
     &:hover {
       background: var(--accent-color-hover);
+      color: #ffffff !important;
+      transform: translateY(-1px);
     }
   }
 }
 
 .pub-citation {
   font-size: 0.85em;
-  color: var(--global-text-color-light);
+  color: var(--text-muted);
   margin: 0.4em 0 0.3em 0;
   line-height: 1.4;
 
   strong {
-    color: var(--global-text-color);
+    color: #1e293b;
   }
 }
