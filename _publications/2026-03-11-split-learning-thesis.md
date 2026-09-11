@@ -1,7 +1,7 @@
 ---
 title: "Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data"
 collection: publications
-category: "theses"
+category: "thesis"
 permalink: /publication/2026-03-04-split-learning-thesis
 date: 2026-03-04
 venue: 'BRAC University Institutional Repository (DSpace)'
