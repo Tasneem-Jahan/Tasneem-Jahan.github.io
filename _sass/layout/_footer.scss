@@ -21,16 +21,16 @@
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
   border-top: 1px solid var(--global-dark-border-color);
-  padding-top: 0.5em;
+  padding-top: 0.3em;              // CHANGED: was 0.5em
 
   footer {
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.5em;
+    margin-top: 0.25em;            // CHANGED: was 0.5em
     max-width: 100%;
-    padding: 0 1em 0.75em;
-    text-align: left;              // CHANGED: was center
+    padding: 0 1em 0.4em;          // CHANGED: was 0.75em bottom padding
+    text-align: left;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -70,28 +70,28 @@
   font-size: $type-size-7;
   color: var(--global-text-color-light);
   opacity: 0.75;
-  margin-top: 0.3em;
-  text-align: left;                // ADDED
-  line-height: 1.8;                // ADDED: matches the airy spacing in the reference
+  margin-top: 0.15em;              // CHANGED: was 0.3em
+  text-align: left;
+  line-height: 1.4;                // CHANGED: was 1.8 — tighter line spacing
 
   a {
-    text-decoration: underline;    // ADDED: reference links appear underlined in the copyright block
+    text-decoration: underline;
   }
 }
 
 .page__footer-follow {
   ul {
-    margin: 0 0 0.75em 0;          // CHANGED: added bottom margin to separate from copyright block
+    margin: 0 0 0.3em 0;           // CHANGED: was 0.75em
     padding: 0;
     list-style-type: none;
     display: flex;
-    justify-content: flex-start;   // CHANGED: was center
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     gap: 0.25em 0;
   }
 
-  .follow-label {                  // ADDED: styling for the "Follow:" label
+  .follow-label {
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
     font-weight: bold;
@@ -102,11 +102,11 @@
 
   li {
     display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 2px;              // CHANGED: was 5px
+    padding-bottom: 2px;           // CHANGED: was 5px
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
-    text-transform: uppercase;     // CHANGED: was none
+    text-transform: uppercase;
     letter-spacing: 0.02em;
   }
 
@@ -117,7 +117,7 @@
 
   a {
     padding-right: 10px;
-    font-weight: bold;              // CHANGED: was 500
+    font-weight: bold;
   }
 
   .social-icons {
