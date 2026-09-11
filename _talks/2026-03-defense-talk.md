@@ -1,5 +1,5 @@
 ---
-title: "M.Sc. Thesis Defense: Privacy-Preserving Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data"
+title: "M.Sc. Thesis Defense: Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data"
 collection: talks
 type: "Oral Defense Presentation"
 permalink: /talks/2026-03-defense-talk/
@@ -98,6 +98,3 @@ This thesis defense introduces a framework integrating **Split Learning (SL)** w
 * **Transfer Trade-Off:**
   * Logit-level transfer primarily optimizes decision ranking and discriminative boundary separation, whereas encoder-level latent alignment prioritizes calibration consistency and feature stability.
 
-    <i class="fas fa-download"></i> Download Full Slide Deck (.pptx)
-  </a>
-</div>
