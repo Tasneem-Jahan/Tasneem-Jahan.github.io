@@ -21,7 +21,8 @@ tags:
   <span class="research-tag">Split Learning</span>
   <span class="research-tag">Knowledge Distillation</span>
   <span class="research-tag">Tabular Deep Learning</span>
-  <span class="research-tag">Healthcare Informatics</span>
+  <span class="research-tag">Few-Shot Learning</span>
+  <span class="research-tag">Healthcare AI</span>
   <span class="research-tag">PyTorch</span>
 </div>
 
