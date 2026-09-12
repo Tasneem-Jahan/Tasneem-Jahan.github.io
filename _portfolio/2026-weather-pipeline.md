@@ -14,7 +14,6 @@ date: 2026-08-07
 <div class="research-tags">
   <span class="research-tag">Python</span>
   <span class="research-tag">Open-Meteo API</span>
-  <span class="research-tag">PostgreSQL / SQL</span>
   <span class="research-tag">ETL Engineering</span>
   <span class="research-tag">Power BI</span>
   <span class="research-tag">Data Modeling</span>
@@ -23,9 +22,6 @@ date: 2026-08-07
 <div class="pub-actions">
   <a href="https://github.com/Tasneem-Jahan/weather-api-data-pipeline" target="_blank" rel="noopener">
     <i class="fab fa-github"></i> View GitHub Repository
-  </a>
-  <a href="#pipeline-workflow">
-    <i class="fas fa-project-diagram"></i> Architecture
   </a>
   <a href="#dashboard-analytics">
     <i class="fas fa-chart-line"></i> Dashboard & Insights
