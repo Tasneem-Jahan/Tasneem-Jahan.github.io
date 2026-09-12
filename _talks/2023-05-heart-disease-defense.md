@@ -2,7 +2,7 @@
 title: "B.Sc. Thesis Defense: Heart Disease Prediction Using Machine Learning"
 collection: talks
 type: "Oral Defense Presentation"
-permalink: /talks/2023-07-heart-disease-defense/
+permalink: /talks/2023-05-heart-disease-defense/
 venue: "Department of Computer Science, American International University-Bangladesh (AIUB)"
 date: 2023-05-22
 location: "Dhaka, Bangladesh"
