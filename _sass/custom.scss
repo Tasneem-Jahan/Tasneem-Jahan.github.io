@@ -2,14 +2,24 @@
    CUSTOM OVERRIDES — MODERNIZED TYPOGRAPHY & COLOR PALETTE
    ========================================================================== */
 
+/* Clean, modern sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 :root {
-  --accent-color: #0f766e;        /* deep slate teal */
-  --accent-color-hover: #0d5d57;
-  --surface-bg: #f8fafc;          /* clean, subtle card background */
+  --accent-color: #0f766e;        /* Deep slate teal */
+  --accent-color-hover: #115e59;  /* Rich dark teal hover */
+  --accent-color-light: #14b8a6;  /* Vibrant mint/teal highlight */
+  --surface-bg: #f8fafc;          /* Clean subtle card background */
   --surface-border: #e2e8f0;
   --text-muted: #64748b;
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --text-body: #334155;           /* Soft dark slate */
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* Scaled base typography */
+html {
+  font-size: 14.5px;              /* Scaled down from default 16px */
 }
 
 body,
@@ -17,13 +27,15 @@ p,
 li,
 .page__content {
   font-family: var(--font-body);
-  font-size: 16px;
+  font-size: 0.95rem;             /* Compact, refined body text */
+  color: var(--text-body);
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
 
 .page__content p,
 .page__content li {
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -31,14 +43,20 @@ h1, h2, h3, h4, h5, h6,
 .archive__item-title {
   font-family: var(--font-body);
   font-weight: 700;
+  color: var(--accent-color);
+  letter-spacing: -0.015em;
 }
 
 .page__title {
-  font-size: 1.8em;
+  font-size: 1.65em;
+}
+
+h2 {
+  font-size: 1.35em;
 }
 
 h3 {
-  font-size: 1.3em;
+  font-size: 1.18em;
 }
 
 a {
@@ -50,13 +68,21 @@ a {
   }
 }
 
+/* Top Navigation Bar Accent */
+.greedy-nav .visible-links a.active,
+.greedy-nav .visible-links a:hover {
+  color: var(--accent-color) !important;
+  border-bottom-color: var(--accent-color) !important;
+}
+
 .btn--primary,
 .btn--info {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
-  border-radius: 8px;
+  border-radius: 6px;
   font-weight: 500;
-  padding: 8px 16px;
+  padding: 6px 14px;
+  font-size: 0.9rem;
 
   &:hover {
     background-color: var(--accent-color-hover);
@@ -66,10 +92,11 @@ a {
 
 blockquote {
   background-color: var(--surface-bg);
-  border-left: 4px solid var(--accent-color);
-  padding: 0.9em 1.3em;
-  margin: 1.5em 0;
+  border-left: 3px solid var(--accent-color);
+  padding: 0.8em 1.2em;
+  margin: 1.2em 0;
   border-radius: 4px;
+  font-size: 0.92rem;
 }
 
 .list__item,
@@ -82,28 +109,36 @@ blockquote {
   background-color: var(--surface-bg);
   border: 1px solid var(--surface-border);
   border-radius: 8px;
-  padding: 1em 1.2em;
-  margin-bottom: 1em;
+  padding: 0.9em 1.1em;
+  margin-bottom: 0.85em;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 
   &:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 12px rgba(15, 118, 110, 0.08);
   }
 
   p {
-    font-size: 0.92em;
-    line-height: 1.55;
-    margin: 0.5em 0;
+    font-size: 0.88em;
+    line-height: 1.5;
+    margin: 0.4em 0;
   }
 
   .archive__item-title {
-    font-size: 1.15em;
-    margin-top: 0;           /* Fixed: eliminated unwanted excess top gap */
-    margin-bottom: 0.35em;
+    font-size: 1.05em;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+
+    a {
+      color: var(--accent-color);
+
+      &:hover {
+        color: var(--accent-color-hover);
+      }
+    }
   }
 
   .archive__item-excerpt {
-    margin: 0.4em 0;
+    margin: 0.35em 0;
     color: #475569;
   }
 }
@@ -113,11 +148,13 @@ pre,
 .tech-badge,
 kbd {
   font-family: var(--font-mono);
+  font-size: 0.85em;
 }
 
 .author__name {
   font-family: var(--font-body);
   font-weight: 700;
+  font-size: 1.15em;
 }
 
 /* ==========================================================================
@@ -125,13 +162,13 @@ kbd {
    ========================================================================== */
 
 .phd-callout {
-  background: rgba(15, 118, 110, 0.08);
-  border-left: 4px solid var(--accent-color);
-  border-radius: 8px;
-  padding: 16px 20px;
-  margin: 24px 0;
-  font-size: 1rem;
-  line-height: 1.6;
+  background: rgba(15, 118, 110, 0.06);
+  border-left: 3px solid var(--accent-color);
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin: 18px 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
 
   a {
     color: var(--accent-color);
@@ -145,9 +182,10 @@ kbd {
   background: transparent;
   color: #334155 !important;
   border: 1px solid #cbd5e1;
-  padding: 8px 16px;
-  border-radius: 8px;
+  padding: 6px 14px;
+  border-radius: 6px;
   font-weight: 500;
+  font-size: 0.9rem;
   text-decoration: none !important;
   transition: border-color 0.2s ease, color 0.2s ease;
 
@@ -164,8 +202,8 @@ kbd {
 .research-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.2em;
-  margin: 1.5em 0;
+  gap: 1em;
+  margin: 1.2em 0;
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -175,32 +213,33 @@ kbd {
 .research-card {
   background: var(--surface-bg);
   border: 1px solid var(--surface-border);
-  border-radius: 10px;
-  padding: 1.4em;
+  border-radius: 8px;
+  padding: 1.2em;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 
   &:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(15, 118, 110, 0.08);
   }
 
   .research-card__icon {
-    font-size: 1.5em;
+    font-size: 1.35em;
     color: var(--accent-color);
-    margin-bottom: 0.5em;
+    margin-bottom: 0.4em;
     display: block;
   }
 
   .research-card__title {
     font-weight: 700;
-    font-size: 1.05em;
-    margin-bottom: 0.4em;
+    font-size: 0.98em;
+    margin-bottom: 0.35em;
     display: block;
+    color: var(--accent-color);
   }
 
   .research-card__desc {
-    font-size: 0.92em;
-    line-height: 1.5;
+    font-size: 0.88em;
+    line-height: 1.45;
     color: var(--text-muted);
     margin: 0;
   }
@@ -213,17 +252,17 @@ kbd {
 .research-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4em;
-  margin: 0.5em 0 0.7em 0;
+  gap: 0.35em;
+  margin: 0.4em 0 0.6em 0;
 }
 
 .research-tag {
   display: inline-block;
-  background: rgba(15, 118, 110, 0.09);
+  background: rgba(15, 118, 110, 0.08);
   color: var(--accent-color);
-  font-size: 0.78em;
+  font-size: 0.74em;
   font-weight: 600;
-  padding: 0.22em 0.65em;
+  padding: 0.2em 0.6em;
   border-radius: 999px;
   white-space: nowrap;
 }
@@ -231,9 +270,9 @@ kbd {
 .research-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 1em;
-  margin-top: 0.6em;
-  font-size: 0.9em;
+  gap: 0.85em;
+  margin-top: 0.5em;
+  font-size: 0.86em;
 
   a {
     color: var(--accent-color);
@@ -249,8 +288,8 @@ kbd {
 }
 
 .featured-research-item {
-  margin-bottom: 1.8em;
-  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
+  padding-bottom: 1.2em;
   border-bottom: 1px solid var(--surface-border);
 
   &:last-of-type {
@@ -265,19 +304,19 @@ kbd {
 .pub-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5em;
-  margin-top: 0.5em;
+  gap: 0.45em;
+  margin-top: 0.45em;
 
   a {
     display: inline-flex;
     align-items: center;
-    gap: 0.4em;
+    gap: 0.35em;
     background: var(--accent-color);
     color: #ffffff !important;
-    font-size: 0.8em;
+    font-size: 0.78em;
     font-weight: 600;
-    padding: 0.35em 0.75em;
-    border-radius: 6px;
+    padding: 0.3em 0.7em;
+    border-radius: 5px;
     text-decoration: none !important;
     transition: background 0.2s ease, transform 0.15s ease;
 
@@ -290,9 +329,9 @@ kbd {
 }
 
 .pub-citation {
-  font-size: 0.85em;
+  font-size: 0.82em;
   color: var(--text-muted);
-  margin: 0.4em 0 0.3em 0;
+  margin: 0.35em 0 0.25em 0;
   line-height: 1.4;
 
   strong {
