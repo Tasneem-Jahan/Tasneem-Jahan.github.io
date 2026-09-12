@@ -3,12 +3,12 @@ title: "Heart Disease Prediction Using Machine Learning"
 excerpt: "A comparative clinical tabular study benchmarked across merged multi-center cohorts (UCI and Kaggle) using 10-fold cross-validation and hyperparameter optimization."
 collection: research
 permalink: /research/heart-disease-prediction/
-date: 2023-07-12
+date: 2023-05-22
 ---
 
 <div class="pub-citation">
   <strong>Tasneem Jahan Farheen</strong>, Zuaina Zabin Shera, S.M. Hasanuzzaman Abir, Muntasir Rahman (Supervised by Tanvir Ahmed)<br>
-  <em>Bachelor of Science in Computer Science and Engineering Thesis</em> — American International University-Bangladesh (AIUB), July 2023 [1]
+  <em>Bachelor of Science in Computer Science and Engineering Thesis</em> — American International University-Bangladesh (AIUB), May 2023
 </div>
 
 <div class="research-tags">
@@ -24,22 +24,13 @@ date: 2023-07-12
   <a href="/talks/2023-07-heart-disease-defense/">
     <i class="fas fa-chalkboard-teacher"></i> Defense Presentation & Slides
   </a>
-  <a href="https://github.com/Tasneem-Jahan" target="_blank" rel="noopener">
-    <i class="fab fa-github"></i> Code Repository
-  </a>
-  <a href="#methodology-workflow">
-    <i class="fas fa-project-diagram"></i> Methodology
-  </a>
-  <a href="#empirical-benchmarks">
-    <i class="fas fa-chart-bar"></i> Results & Benchmarks
-  </a>
 </div>
 
 ---
 
 ### Project Overview
 
-Cardiovascular diseases (CVDs) remain the leading cause of mortality worldwide, responsible for an estimated 700,000 deaths annually [1]. Timely clinical diagnosis is often hindered by heterogeneous feature sets and non-standardized diagnostic criteria across institutions [1, 2].
+Cardiovascular diseases (CVDs) remain the leading cause of mortality worldwide, responsible for an estimated 700,000 deaths annually. Timely clinical diagnosis is often hindered by heterogeneous feature sets and non-standardized diagnostic criteria across institutions.
 
 This study evaluates five supervised machine learning models across a harmonized, multi-center clinical dataset created by merging five international cohorts (Cleveland, Hungarian, Switzerland, Long Beach VA, and Statlog) with the Z-Alizadeh Sani clinical registry [1]. Using a standardized 10-fold cross-validation protocol and ROC-AUC analysis, the framework assesses generalization ability and prioritizes the reduction of critical false negatives in clinical triage [1].
 
