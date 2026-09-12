@@ -4,7 +4,7 @@ collection: talks
 type: "Oral Defense Presentation"
 permalink: /talks/2026-03-defense-talk/
 venue: "Department of Computer Science and Engineering, BRAC University"
-date: 2026-03-04
+date: 2026-03-11
 location: "Dhaka, Bangladesh"
 ---
 
