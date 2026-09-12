@@ -2,7 +2,7 @@
 title: "M.Sc. Thesis Defense: Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data"
 collection: talks
 type: "Oral Defense Presentation"
-permalink: /talks/2026-03-defense-talk/
+permalink: /talks/2026-03-defense-talk
 venue: "Department of Computer Science and Engineering, BRAC University"
 date: 2026-03-11
 location: "Dhaka, Bangladesh"
