@@ -7,46 +7,79 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<div class="pub-actions" style="margin-bottom: 2rem;">
+  <a href="/files/Tasneem_Jahan_Farheen_CV.pdf" download="Tasneem_Jahan_Farheen_CV.pdf" style="display: inline-flex; align-items: center; gap: 0.5rem; background: var(--accent-color, #0f766e); color: #ffffff !important; font-size: 0.9rem; font-weight: 600; padding: 0.6rem 1.2rem; border-radius: 6px; text-decoration: none !important;">
+    <i class="fas fa-file-pdf"></i> Download Full CV (PDF)
+  </a>
+  <a href="https://github.com/Tasneem-Jahan" target="_blank" rel="noopener">
+    <i class="fab fa-github"></i> GitHub Profile
+  </a>
+</div>
 
-Education
-======
-* **M.Sc. in Computer Science and Engineering** | BRAC University, Bangladesh *(May 2024 – Mar 2026)*
-  * *Thesis:* Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data
-  * Proposed a privacy-preserving split learning framework for diabetes risk prediction across heterogeneous clinical datasets.
-  * Designed and evaluated logit-level and encoder-level distillation strategies under extreme few-shot supervision.
-  * Benchmarked MLP, SAINT, and TabM student models, demonstrating consistent gains over scratch training in low-resource settings.
-  * *Award:* Secured a 40% merit-based scholarship through undergraduate academic performance.
-* **B.Sc. in Computer Science and Engineering** | American International University-Bangladesh *(Sep 2019 – May 2023)*
-  * *Major:* Software Engineering
-  * *Thesis:* Heart Disease Prediction Using Machine Learning
-  * Compared five ML classifiers (KNN, Naïve Bayes, SVM, Logistic Regression, and Random Forest) on merged multi-source clinical datasets.
-  * Applied 10-fold cross-validation and hyperparameter tuning, selecting the best-performing model via ROC-AUC analysis.
-  * *Honors:* Dean's List, Faculty of Science and Technology (Received for 3 undergraduate semesters).
+**Education**
+---
 
-Awards & Honors
-======
-* **Merit-Based Graduate Scholarship (40%)** | BRAC University, Bangladesh *(May 2024)*
-  * * Awarded for postgraduate studies based on undergraduate academic excellence.
-* **Dean's List Honor** | Faculty of Science and Technology, AIUB *(2019 – 2023)*
-  * * Recognized for outstanding academic performance across 3 semesters.
+* **Master of Science in Computer Science and Engineering**  
+  BRAC University, Dhaka, Bangladesh | *Graduated: March 2026*  
+  * **Thesis:** *Privacy-Preserving Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data*
+  * **Supervisor:** Dr. Md. Golam Rabiul Alam
+  * **Focus:** Distributed machine learning, split learning, knowledge distillation, tabular transformers (FT-Transformer, SAINT, TabM), few-shot learning
 
-Teaching Experience
-======
-* **Computer Science Teacher** | Mastermind English Medium School, Dhaka, Bangladesh *(Jan 2024 – Present)*
-  * Develop and deliver foundational curricula and lesson plans covering MS Word, Python programming, and introductory Artificial Intelligence.
-  * Conduct weekly hands-on laboratory sessions, improving student practical competencies by 85% based on periodic assessments.
+* **Bachelor of Science in Computer Science and Engineering**  
+  American International University-Bangladesh (AIUB), Dhaka, Bangladesh | *Graduated: July 2023*
+  * **Thesis:** *Heart Disease Prediction Using Machine Learning*  
+  * **Supervisor:** Tanvir Ahmed
+  * **Focus:** Supervised tabular classification, 10-fold cross-validation, SVM, KNN, hyperparameter tuning.
+
+**Research Interests**
+---
+* **Trustworthy & Privacy-Preserving AI:** Distributed machine learning, Split Learning (SL), Federated Learning, and secure collaborative frameworks for sensitive clinical environments.
+* **Knowledge Distillation & Model Compression:** Logit-level distillation, latent representation alignment, and knowledge transfer under extreme label scarcity (few-shot supervision).
+* **Tabular Deep Learning & Foundation Models:** Specialized architectures for heterogeneous tabular data, including FT-Transformer, SAINT, and TabM.
+* **Healthcare Informatics & Clinical AI:** Early disease risk stratification, diagnostic decision support, handling institutional distribution shifts, and multi-cohort harmonization.
+* **Uncertainty & Model Calibration:** Post-hoc probability calibration, Expected Calibration Error (ECE), and out-of-distribution robustness in medical diagnostics.
+
+**Publications & Preprints**
+---
+* **Farheen, T. J.**, & Alam, M. G. R. (2026). *Privacy-Preserving Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data*. M.Sc. Thesis, BRAC University DSpace Institutional Repository.  
+  [DSpace Repository](https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58) | [Project Overview](/research/knowledge-distillation-split-learning/)
+* Shera, Z. Z., **Farheen, T. J.**, Abir, S. M. H., Rahman, M., & Ahmed, T. (2023). *Heart Disease Prediction Using Machine Learning*. B.Sc. Thesis, American International University-Bangladesh (AIUB)[cite: 2].  
+  [Project Overview](/research/heart-disease-prediction/) | [Defense Presentation](/talks/2023-07-heart-disease-defense/)
+
+**Presentations & Talks**
+---
+* **Oral Defense Presentation:** *Privacy-Preserving Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data*  
+  M.Sc. Thesis Defense, Department of Computer Science and Engineering, BRAC University (March 2026).  
+  [Presentation Page & Slides](/talks/2026-03-defense-talk/)
+* **Undergraduate Thesis Defense:** *Heart Disease Prediction Using Machine Learning*  
+  B.Sc. Thesis Defense, Department of Computer Science, AIUB (July 2023).  
+  [Presentation Page & Slides](/talks/2023-07-heart-disease-defense/)
+
+**Projects & Data Engineering**
+---
+
+* **Automated Weather API Data Pipeline & Power BI Dashboard** | *August 2026*  
+  * Built an end-to-end automated Python ETL pipeline querying continuous hourly weather observations from the Open-Meteo REST API.  
+  * Modeled a normalized SQL Star Schema to evaluate multi-city longitudinal temperature, moisture, and wind dynamics.  
+  * Designed an interactive Power BI analytics suite tracking multi-station KPIs and diurnal patterns.  
+  [Project Details](/portfolio/2026-weather-pipeline/) | [GitHub Repository](https://github.com/Tasneem-Jahan/weather-api-data-pipeline)
+
+* **E-Commerce Customer Segmentation & Behavioral RFM Clustering** | *July 2026*  
+  * Engineered an unsupervised ML pipeline transforming transactional logs into Recency, Frequency, and Monetary (RFM) distributions.  
+  * Applied Principal Component Analysis (PCA) and K-Means clustering with Silhouette validation to establish customer retention cohorts.  
+  [Project Details](/portfolio/2026-ecommerce-segmentation/)
+
+**Technical Skills**
+---
+* **Languages & Core:** Python, SQL, C++, Bash
+* **Machine Learning & Deep Learning:** PyTorch, Scikit-Learn, Tabular Transformers (FT-Transformer, SAINT, TabM), Knowledge Distillation, Split Learning, XGBoost
+* **Data Engineering & Databases:** PostgreSQL, MySQL, Relational Star Schema Modeling, ETL Pipelines, REST APIs, JSON Parsing
+* **Analytics & Visualization:** Power BI, DAX, Seaborn, Matplotlib, Pandas, NumPy
+* **Tools & Environments:** Git, GitHub, Linux, Jupyter Notebook, LaTeX
+
+**Academic Service & Teaching**
+---
+* **Computer Science Teacher**  
+  * Develop and deliver foundational curricula and lesson plans covering MS Word, Python programming, and introductory Artificial Intelligence.  
+  * Conduct weekly hands-on laboratory sessions, improving student practical competencies by 85% based on periodic assessments.  
   * Design, administer, and grade structured digital assessments for systematic academic progress tracking.
-
-Industry & Development Experience
-======
-* **Full Stack Developer** | Upwork Inc. *(Oct 2022 – May 2023)*
-  * Built and maintained a Laravel-based PHP web application with a Vue.js front end, adhering to MVC architecture and object-oriented design patterns.
-  * Optimized application code and MySQL database queries, improving end-to-end performance by 20%.
-  * Managed Git version control workflows and supported deployment pipelines.
-
-Technical Skills
-======
-* **Programming & Frameworks:** Python, Java, JavaScript, SQL, Vue.js, React, Laravel
-* **Tools & Platforms:** Git/GitHub, VS Code, Google Colab, Power BI, Microsoft Excel
-* **Methodologies & Research:** Machine Learning, Knowledge Distillation, Data Pipelines, Academic Writing, Statistical Analysis
