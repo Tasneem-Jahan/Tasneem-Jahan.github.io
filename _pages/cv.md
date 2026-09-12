@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div class="pub-actions" style="margin-bottom: 1.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-  <a href="/files/CV_Tasneem Jahan Farheen.pdf" download="CV_Tasneem Jahan Farheen.pdf" style="display: inline-flex; align-items: center; gap: 0.35rem; background: var(--accent-color, #0f766e); color: #ffffff !important; font-size: 0.8rem; font-weight: 600; padding: 0.35rem 0.75rem; border-radius: 5px; text-decoration: none !important;">
+  <a href="/files/CV_Tasneem_Jahan_Farheen.pdf" download="CV_Tasneem_Jahan_Farheen.pdf" style="display: inline-flex; align-items: center; gap: 0.35rem; background: var(--accent-color, #0f766e); color: #ffffff !important; font-size: 0.8rem; font-weight: 600; padding: 0.35rem 0.75rem; border-radius: 5px; text-decoration: none !important;">
     <i class="fas fa-file-pdf"></i> Download Full CV (PDF)
   </a>
   <a href="https://github.com/Tasneem-Jahan" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.8rem; font-weight: 600; padding: 0.35rem 0.75rem; border-radius: 5px; border: 1px solid var(--surface-border, #e2e8f0); text-decoration: none !important;">
