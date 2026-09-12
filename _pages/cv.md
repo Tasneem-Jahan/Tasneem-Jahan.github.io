@@ -7,11 +7,11 @@ redirect_from:
   - /resume
 ---
 
-<div class="pub-actions" style="margin-bottom: 2rem;">
-  <a href="/files/Tasneem_Jahan_Farheen_CV.pdf" download="Tasneem_Jahan_Farheen_CV.pdf" style="display: inline-flex; align-items: center; gap: 0.5rem; background: var(--accent-color, #0f766e); color: #ffffff !important; font-size: 0.9rem; font-weight: 600; padding: 0.6rem 1.2rem; border-radius: 6px; text-decoration: none !important;">
+<div class="pub-actions" style="margin-bottom: 1.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+  <a href="/files/Tasneem_Jahan_Farheen_CV.pdf" download="Tasneem_Jahan_Farheen_CV.pdf" style="display: inline-flex; align-items: center; gap: 0.35rem; background: var(--accent-color, #0f766e); color: #ffffff !important; font-size: 0.8rem; font-weight: 600; padding: 0.35rem 0.75rem; border-radius: 5px; text-decoration: none !important;">
     <i class="fas fa-file-pdf"></i> Download Full CV (PDF)
   </a>
-  <a href="https://github.com/Tasneem-Jahan" target="_blank" rel="noopener">
+  <a href="https://github.com/Tasneem-Jahan" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.8rem; font-weight: 600; padding: 0.35rem 0.75rem; border-radius: 5px; border: 1px solid var(--surface-border, #e2e8f0); text-decoration: none !important;">
     <i class="fab fa-github"></i> GitHub Profile
   </a>
 </div>
