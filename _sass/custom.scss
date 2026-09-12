@@ -446,3 +446,17 @@ kbd {
     line-height: 1.4;
   }
 }
+/* Active navigation link styling */
+.greedy-nav .visible-links a.active,
+.greedy-nav .visible-links .current,
+.greedy-nav .visible-links a[aria-current="page"] {
+  color: var(--accent-color, #0f766e) !important;
+  border-bottom: 2px solid var(--accent-color, #0f766e) !important;
+  font-weight: 600;
+}
+
+/* Hover state on tabs */
+.greedy-nav .visible-links a:hover {
+  color: var(--accent-color, #0f766e) !important;
+  border-bottom: 2px solid var(--accent-color, #0f766e) !important;
+}
