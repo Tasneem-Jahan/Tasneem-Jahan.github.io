@@ -24,9 +24,6 @@ date: 2026-07-20
   <a href="https://github.com/Tasneem-Jahan/rfm-customer-segmentation-engine" target="_blank" rel="noopener">
     <i class="fab fa-github"></i> View GitHub Repository
   </a>
-  <a href="#clustering-workflow">
-    <i class="fas fa-project-diagram"></i> Architecture
-  </a>
   <a href="#cluster-profiles">
     <i class="fas fa-users"></i> Customer Personas
   </a>
@@ -77,8 +74,8 @@ This project implements an end-to-end unsupervised customer segmentation pipelin
 <h3 id="clustering-workflow">Technical Highlights & Pipeline Design</h3>
 
 * **Data Cleaning & Preprocessing:**
-  * Cleaned transactional logs by filtering canceled orders, handling negative return quantities, and removing missing customer identifiers.
-  * Extracted granular features including basket diversity, unit revenue per transaction, and geographic distributions.
+  * Cleaned transactional logs by filtering canceled orders, handling negative return quantities and removing missing customer identifiers.
+  * Extracted granular features including basket diversity, unit revenue per transaction and geographic distributions.
 * **Feature Engineering & Transformation:**
   * Aggregated raw invoice logs into customer-level **RFM** features:
     * **Recency:** Days elapsed since last recorded order.
