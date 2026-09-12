@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div class="pub-actions" style="margin-bottom: 1.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-  <a href="/files/Tasneem_Jahan_Farheen_CV.pdf" download="Tasneem_Jahan_Farheen_CV.pdf" style="display: inline-flex; align-items: center; gap: 0.35rem; background: var(--accent-color, #0f766e); color: #ffffff !important; font-size: 0.8rem; font-weight: 600; padding: 0.35rem 0.75rem; border-radius: 5px; text-decoration: none !important;">
+  <a href="/files/CV_Tasneem Jahan Farheen.pdf" download="CV_Tasneem Jahan Farheen.pdf" style="display: inline-flex; align-items: center; gap: 0.35rem; background: var(--accent-color, #0f766e); color: #ffffff !important; font-size: 0.8rem; font-weight: 600; padding: 0.35rem 0.75rem; border-radius: 5px; text-decoration: none !important;">
     <i class="fas fa-file-pdf"></i> Download Full CV (PDF)
   </a>
   <a href="https://github.com/Tasneem-Jahan" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.8rem; font-weight: 600; padding: 0.35rem 0.75rem; border-radius: 5px; border: 1px solid var(--surface-border, #e2e8f0); text-decoration: none !important;">
@@ -26,7 +26,7 @@ redirect_from:
   * **Focus:** Distributed machine learning, split learning, knowledge distillation, tabular transformers (FT-Transformer, SAINT, TabM), few-shot learning
 
 * **Bachelor of Science in Computer Science and Engineering**  
-  American International University-Bangladesh (AIUB), Dhaka, Bangladesh | *Graduated: July 2023*
+  American International University-Bangladesh (AIUB), Dhaka, Bangladesh | *Graduated: August 2024*
   * **Thesis:** *Heart Disease Prediction Using Machine Learning*  
   * **Supervisor:** Tanvir Ahmed
   * **Focus:** Supervised tabular classification, 10-fold cross-validation, SVM, KNN, hyperparameter tuning.
@@ -43,8 +43,6 @@ redirect_from:
 ---
 * **Farheen, T. J.**, & Alam, M. G. R. (2026). *Privacy-Preserving Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data*. M.Sc. Thesis, BRAC University DSpace Institutional Repository.  
   [DSpace Repository](https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58) | [Project Overview](/research/knowledge-distillation-split-learning/)
-* Shera, Z. Z., **Farheen, T. J.**, Abir, S. M. H., Rahman, M., & Ahmed, T. (2023). *Heart Disease Prediction Using Machine Learning*. B.Sc. Thesis, American International University-Bangladesh (AIUB)[cite: 2].  
-  [Project Overview](/research/heart-disease-prediction/) | [Defense Presentation](/talks/2023-07-heart-disease-defense/)
 
 **Presentations & Talks**
 ---
@@ -67,7 +65,7 @@ redirect_from:
 * **E-Commerce Customer Segmentation & Behavioral RFM Clustering** | *July 2026*  
   * Engineered an unsupervised ML pipeline transforming transactional logs into Recency, Frequency, and Monetary (RFM) distributions.  
   * Applied Principal Component Analysis (PCA) and K-Means clustering with Silhouette validation to establish customer retention cohorts.  
-  [Project Details](/portfolio/2026-ecommerce-segmentation/)
+  [Project Details](/portfolio/2026-ecommerce-segmentation/) | [GitHub Repository](https://github.com/Tasneem-Jahan/rfm-customer-segmentation-engine)
 
 **Technical Skills**
 ---
