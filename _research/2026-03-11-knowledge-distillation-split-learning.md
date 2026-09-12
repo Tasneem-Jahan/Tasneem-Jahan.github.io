@@ -38,7 +38,7 @@ date: 2026-03-11
 
 Predictive machine learning models in healthcare often struggle with data decentralization and strict governance regulations that prohibit the pooling of raw patient records across hospital networks. Additionally, target clinics in resource-constrained settings frequently suffer from limited labeled records. 
 
-This research introduces a framework combining **Split Learning (SL)** with **Knowledge Distillation (KD)** for diabetes risk prediction across heterogeneous clinical tabular datasets. High-capacity teacher models are trained across distributed source cohorts without data centralization, subsequently transferring structured predictive knowledge to compact student models deployed in data-scarce target environments.
+This research introduces a framework combining **Split Learning (SL)** with **Knowledge Distillation (KD)** for diabetes risk prediction across heterogeneous clinical tabular datasets. High-capacity teacher models are trained across distributed source cohorts without data centralization, subsequently transferring structured predictive knowledge to compact student models deployed in low-resource target environments.
 
 <div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 8px; margin: 24px 0; padding: 16px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; width: 100%; box-sizing: border-box; overflow-x: auto;">
   
@@ -83,7 +83,7 @@ This research introduces a framework combining **Split Learning (SL)** with **Kn
   * **Logit-Level KD (Framework 1):** Transfers soft probability distributions from the split-learning teacher to establish stabilized decision boundaries under sparse supervision.
   * **Encoder-Level KD (Framework 2):** Aligns intermediate latent representations using Mean Squared Error (MSE) loss to transfer structural feature dependencies across institutional distributions.
 * **Extreme Few-Shot Supervision Protocol:** Rigorously evaluates model adaptation under extreme sample scarcity with balanced subsets of K in {5, 10, 20} labeled samples per class, treating remaining records as unlabeled transfer data.
-* **Cross-Architecture Benchmarking:** Evaluates three distinct student model families—standard feed-forward networks (**MLP**), attention-based tabular transformers (**SAINT**), and batch-ensemble networks (**TabM**).
+* **Cross-Architecture Benchmarking:** Evaluates three distinct student model families—standard feed-forward networks (**MLP**), attention-based tabular transformers (**SAINT**) and batch-ensemble networks (**TabM**).
 * **Multi-Cohort Heterogeneous Validation:** Benchmarked across distinct clinical cohorts, evaluating cross-domain shifts across laboratory-measured populations (NHANES, HRS, Pima) and a 520-patient symptom-based clinical cohort from Sylhet, Bangladesh.
 
 ---
