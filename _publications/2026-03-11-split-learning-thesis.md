@@ -17,15 +17,6 @@ tags:
   <em>Master's Thesis</em> — BRAC University Institutional Repository (DSpace), 2026
 </div>
 
-<div class="research-tags">
-  <span class="research-tag">Split Learning</span>
-  <span class="research-tag">Knowledge Distillation</span>
-  <span class="research-tag">Tabular Deep Learning</span>
-  <span class="research-tag">Few-Shot Learning</span>
-  <span class="research-tag">Healthcare AI</span>
-  <span class="research-tag">PyTorch</span>
-</div>
-
 <div class="pub-actions">
   <a href="https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58" target="_blank" rel="noopener">
     <i class="fas fa-file-pdf"></i> Read Full Paper (DSpace)
@@ -57,25 +48,3 @@ This work systematically evaluates two complementary transfer mechanisms:
 
 Both approaches maintain strict data privacy by keeping raw patient data local and exchanging only intermediate activations. Experimental results under few-shot supervision indicate that logit-level distillation substantially improves discriminative performance, particularly in extremely low-label scenarios while stabilizing training across heterogeneous domains. Encoder-level distillation further improves probabilistic calibration and representation alignment under cross-domain distribution shifts.
 
----
-
-<div id="manual-citation">
-  <h3>Citation</h3>
-  <p style="font-size: 0.95rem; color: #334155; margin-bottom: 0.8rem;">
-    <strong>APA:</strong><br>
-    Farheen, T. J. (2026). <em>Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data</em> (Master's thesis, BRAC University). BRAC University Institutional Repository.
-  </p>
-
-  <p style="font-size: 0.95rem; color: #334155; margin-bottom: 0.5rem;">
-    <strong>BibTeX:</strong>
-  </p>
-  <pre style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; font-size: 0.85rem; line-height: 1.5; overflow-x: auto; color: #1e293b;"><code>@mastersthesis{farheen2026knowledge,
-  author  = {Farheen, Tasneem Jahan},
-  title   = {Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data},
-  school  = {BRAC University},
-  address = {Dhaka, Bangladesh},
-  year    = {2026},
-  month   = {March},
-  url     = {https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58}
-}</code></pre>
-</div>
