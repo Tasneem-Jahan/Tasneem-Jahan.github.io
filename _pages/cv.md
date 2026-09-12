@@ -67,13 +67,12 @@ redirect_from:
   * Applied Principal Component Analysis (PCA) and K-Means clustering with Silhouette validation to establish customer retention cohorts.  
   [Project Details](/portfolio/2026-ecommerce-segmentation/) | [GitHub Repository](https://github.com/Tasneem-Jahan/rfm-customer-segmentation-engine)
 
-**Technical Skills**
+**Skills**
 ---
-* **Languages & Core:** Python, SQL, C++, Bash
-* **Machine Learning & Deep Learning:** PyTorch, Scikit-Learn, Tabular Transformers (FT-Transformer, SAINT, TabM), Knowledge Distillation, Split Learning, XGBoost
-* **Data Engineering & Databases:** PostgreSQL, MySQL, Relational Star Schema Modeling, ETL Pipelines, REST APIs, JSON Parsing
-* **Analytics & Visualization:** Power BI, DAX, Seaborn, Matplotlib, Pandas, NumPy
-* **Tools & Environments:** Git, GitHub, Linux, Jupyter Notebook, LaTeX
+* **Programming Languages & Frameworks:** Python, PyTorch, Scikit-Learn, SQL, Java, PHP (Laravel), JavaScript (Vue.js, React)
+* **Software & Tools:** Git/GitHub, VS Code, Google Colab, Microsoft Excel, Power BI
+* **Research & Core Competencies:** Split Learning, Knowledge Distillation, Model Calibration, Data Preprocessing & Feature Engineering
+* **Soft Skills:** Academic Writing, Curriculum Delivery, Technical Communication, Problem-Solving, Team Collaboration
 
 **Academic Service & Teaching**
 ---
