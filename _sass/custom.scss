@@ -389,3 +389,33 @@ kbd {
     text-align: center;
   }
 }
+/* ==========================================================================
+   MILESTONES & TRAJECTORY TIMELINE
+   ========================================================================== */
+
+.timeline-section h3 {
+  color: var(--accent-color);
+}
+
+.timeline-list {
+  margin: 1em 0;
+}
+
+.timeline-entry {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 0.9em;
+  font-size: 0.95em;
+  line-height: 1.55;
+
+  .timeline-date {
+    flex: 0 0 100px;
+    font-weight: 600;
+    color: var(--accent-color);
+    white-space: nowrap;
+  }
+
+  .timeline-text {
+    flex: 1;
+  }
+}
