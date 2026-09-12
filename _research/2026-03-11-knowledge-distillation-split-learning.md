@@ -8,7 +8,7 @@ date: 2026-03-11
 
 <div class="pub-citation">
   <strong>Tasneem Jahan Farheen</strong> (Supervised by Dr. Md. Golam Rabiul Alam)<br>
-  <em>Master of Science in Computer Science and Engineering Thesis</em> — BRAC University, March 2026[cite: 1]
+  <em>Master of Science in Computer Science and Engineering Thesis</em> — BRAC University, March 2026
 </div>
 
 <div class="research-tags">
@@ -27,7 +27,7 @@ date: 2026-03-11
   <a href="/talks/2026-03-defense-talk/">
     <i class="fas fa-chalkboard-teacher"></i> Defense Slides
   </a>
-  <a href="/publication/2026-03-11-split-learning-thesis/">
+  <a href="/publications/2026-03-11-split-learning-thesis/">
     <i class="fas fa-book-open"></i> Publication Entry
   </a>
 </div>
