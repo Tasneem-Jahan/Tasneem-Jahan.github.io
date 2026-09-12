@@ -5,9 +5,8 @@
       <nav id="site-nav" class="greedy-nav">
         <button><span class="navicon"></span></button>
         <ul class="visible-links">
-          <!-- Invisible placeholder to preserve layout position -->
-          <li class="masthead__menu-item masthead__menu-item--lg persist" style="visibility: hidden; pointer-events: none;">
-            <span>{{ site.title }}</span>
+          <li class="masthead__menu-item masthead__menu-item--lg persist">
+            <a href="{{ base_path }}/">{{ site.title }}</a>
           </li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
