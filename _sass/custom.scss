@@ -419,3 +419,30 @@ kbd {
     flex: 1;
   }
 }
+/* ==========================================================================
+   SIDEBAR ICON ALIGNMENT
+   ========================================================================== */
+
+.author__urls,
+.author__urls-wrapper ul {
+  li {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    margin-bottom: 0.5em;
+  }
+
+  i,
+  .icon-pad-right {
+    width: 1.2em;              // fixed width so all icons align to the same left edge
+    text-align: center;
+    flex-shrink: 0;
+    font-size: 1em;
+    margin: 0 !important;      // override any inconsistent default spacing
+  }
+
+  a,
+  span {
+    line-height: 1.4;
+  }
+}
