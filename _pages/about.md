@@ -48,33 +48,6 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
   </div>
 </div>
 ---
-### Milestones & Trajectory
-
-<div class="timeline-section">
-<div class="timeline-list">
-  <div class="timeline-entry">
-    <span class="timeline-date">May 2026</span>
-    <span class="timeline-text">Began work as Lead Researcher on a few-shot autism screening project using dual-mechanism knowledge distillation.</span>
-  </div>
-  <div class="timeline-entry">
-    <span class="timeline-date">Mar 2026</span>
-    <span class="timeline-text">Successfully defended M.Sc. thesis on <em>"Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data"</em> at BRAC University.</span>
-  </div>
-  <div class="timeline-entry">
-    <span class="timeline-date">Jan 2024</span>
-    <span class="timeline-text">Appointed as Computer Science Teacher, developing curricula in foundational programming, computational thinking, and introductory AI concepts.</span>
-  </div>
-  <div class="timeline-entry">
-    <span class="timeline-date">May 2024</span>
-    <span class="timeline-text">Began M.Sc. in Computer Science and Engineering at BRAC University on a 40% merit-based scholarship.</span>
-  </div>
-  <div class="timeline-entry">
-    <span class="timeline-date">May 2023</span>
-    <span class="timeline-text">Graduated with a B.Sc. in Computer Science and Engineering from AIUB, earning Dean's List honors across three semesters.</span>
-  </div>
-</div>
-</div>
----
 ### Featured Research
 
 <div class="featured-research-item">
@@ -106,3 +79,31 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
 </div>
 
 For my applied and engineering projects, see [Projects]({{ site.url }}{{ site.baseurl }}/portfolio/).
+
+---
+### Academic Journey
+
+<div class="timeline-section">
+<div class="timeline-list">
+  <div class="timeline-entry">
+    <span class="timeline-date">May 2026</span>
+    <span class="timeline-text">Began work as Lead Researcher on a few-shot autism screening project using dual-mechanism knowledge distillation.</span>
+  </div>
+  <div class="timeline-entry">
+    <span class="timeline-date">Mar 2026</span>
+    <span class="timeline-text">Successfully defended M.Sc. thesis on <em>"Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data"</em> at BRAC University.</span>
+  </div>
+  <div class="timeline-entry">
+    <span class="timeline-date">Jan 2024</span>
+    <span class="timeline-text">Appointed as Computer Science Teacher, developing curricula in foundational programming, computational thinking, and introductory AI concepts.</span>
+  </div>
+  <div class="timeline-entry">
+    <span class="timeline-date">May 2024</span>
+    <span class="timeline-text">Began M.Sc. in Computer Science and Engineering at BRAC University on a 40% merit-based scholarship.</span>
+  </div>
+  <div class="timeline-entry">
+    <span class="timeline-date">May 2023</span>
+    <span class="timeline-text">Graduated with a B.Sc. in Computer Science and Engineering from AIUB, earning Dean's List honors across three semesters.</span>
+  </div>
+</div>
+</div>
