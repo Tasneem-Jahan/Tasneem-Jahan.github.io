@@ -48,26 +48,31 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
   </div>
 </div>
 ---
-### Recent Updates
-
 ### Milestones & Trajectory
-<div class="news-timeline">
-  <div class="news-item">
-    <span class="news-date">Jul 2026</span>
-    <span class="news-text">Applied for PhD studentships in Data Science & AI funded by Research Ireland.</span>
+
+<div class="timeline-section">
+<div class="timeline-list">
+  <div class="timeline-entry">
+    <span class="timeline-date">May 2026</span>
+    <span class="timeline-text">Began work as Lead Researcher on a few-shot autism screening project using dual-mechanism knowledge distillation.</span>
   </div>
-  <div class="news-item">
-    <span class="news-date">Mar 2026</span>
-    <span class="news-text">Successfully defended M.Sc. thesis on <em>"Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data"</em> at BRAC University.</span>
+  <div class="timeline-entry">
+    <span class="timeline-date">Mar 2026</span>
+    <span class="timeline-text">Successfully defended M.Sc. thesis on <em>"Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data"</em> at BRAC University.</span>
   </div>
-  <div class="news-item">
-    <span class="news-date">Jan 2024</span>
-    <span class="news-text">Appointed as Computer Science Teacher, developing curricula in foundational programming, computational thinking, and introductory AI concepts.</span>
+  <div class="timeline-entry">
+    <span class="timeline-date">Jan 2024</span>
+    <span class="timeline-text">Appointed as Computer Science Teacher, developing curricula in foundational programming, computational thinking, and introductory AI concepts.</span>
   </div>
-  <div class="news-item">
-    <span class="news-date">Aug 2024</span>
-    <span class="news-text">Graduated with a B.Sc. in Computer Science and Engineering, completing an undergraduate thesis in machine learning and earning Dean’s List honors across three semesters.</span>
+  <div class="timeline-entry">
+    <span class="timeline-date">May 2024</span>
+    <span class="timeline-text">Began M.Sc. in Computer Science and Engineering at BRAC University on a 40% merit-based scholarship.</span>
   </div>
+  <div class="timeline-entry">
+    <span class="timeline-date">May 2023</span>
+    <span class="timeline-text">Graduated with a B.Sc. in Computer Science and Engineering from AIUB, earning Dean's List honors across three semesters.</span>
+  </div>
+</div>
 </div>
 ---
 ### Featured Research
