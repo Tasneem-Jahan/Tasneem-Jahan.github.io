@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About Me"
-excerpt: "Prospective PhD student in Machine Learning and Healthcare Informatics. Research portfolio of Tasneem Jahan Farheen, highlighting split learning frameworks, knowledge distillation for tabular clinical datasets, and uncertainty quantification"  
+excerpt: "Prospective PhD student in Machine Learning and Healthcare Informatics. Research portfolio of Tasneem Jahan Farheen, highlighting split learning frameworks, knowledge distillation for tabular clinical datasets and uncertainty quantification"  
 author_profile: true
 redirect_from: 
   - /about/
@@ -14,7 +14,7 @@ I am a Master's graduate in Computer Science and Engineering from BRAC Universit
   <strong>Open to PhD opportunities.</strong> I am actively seeking PhD positions in Machine Learning and Healthcare Informatics, particularly in decentralized learning and clinical decision support, starting Fall 2027. <a href="{{ site.url }}{{ site.baseurl }}/files/CV_Tasneem_Jahan_Farheen.pdf">View my CV</a> or <a href="mailto:farheentasneemjahan@gmail.com">get in touch</a>.
 </div>
 
-In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous clinical tabular data, evaluating logit-level and encoder-level knowledge distillation under few-shot supervision with MLP, SAINT, and TabM architectures. My B.Sc. thesis evaluated machine learning classifiers for heart disease risk prediction across multi-source clinical datasets using rigorous cross-validation, hyperparameter tuning, and ROC-AUC metrics.
+In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous clinical tabular data, evaluating logit-level and encoder-level knowledge distillation under few-shot supervision with MLP, SAINT-style and TabM architectures. My B.Sc. thesis evaluated machine learning classifiers for heart disease risk prediction across multi-source clinical datasets using rigorous cross-validation, hyperparameter tuning and ROC-AUC metrics.
 
 *I also bring a working foundation in full-stack software development and data engineering.*
 
@@ -26,7 +26,7 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
   <div class="research-card">
     <i class="fas fa-network-wired research-card__icon" aria-hidden="true"></i>
     <span class="research-card__title">Agentic AI &amp; Multimodal Clinical Decision Support</span>
-    <p class="research-card__desc">Developing multi-agent retrieval-augmented generation (RAG) frameworks integrating electronic health records (EHR), medical imaging, and clinical notes.</p>
+    <p class="research-card__desc">Developing multi-agent retrieval-augmented generation (RAG) frameworks integrating electronic health records (EHR), medical imaging and clinical notes.</p>
   </div>
 
   <div class="research-card">
@@ -44,7 +44,7 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
   <div class="research-card">
     <i class="fas fa-shield-halved research-card__icon" aria-hidden="true"></i>
     <span class="research-card__title">Decentralized &amp; Privacy-Preserving Learning</span>
-    <p class="research-card__desc">Split learning, federated learning, and knowledge distillation for distributed medical systems.</p>
+    <p class="research-card__desc">Split learning, federated learning and knowledge distillation for distributed medical systems.</p>
   </div>
 </div>
 ---
@@ -95,7 +95,7 @@ For my applied and engineering projects, see [Projects]({{ site.url }}{{ site.ba
   </div>
   <div class="timeline-entry">
     <span class="timeline-date">Jan 2024</span>
-    <span class="timeline-text">Appointed as Computer Science Teacher, developing curricula in foundational programming, computational thinking, and introductory AI concepts.</span>
+    <span class="timeline-text">Appointed as Computer Science Teacher, developing curricula in foundational programming, computational thinking and introductory AI concepts.</span>
   </div>
   <div class="timeline-entry">
     <span class="timeline-date">May 2024</span>
