@@ -31,13 +31,12 @@ redirect_from:
   * **Supervisor:** Tanvir Ahmed
   * **Focus:** Supervised tabular classification, 10-fold cross-validation, SVM, KNN, hyperparameter tuning.
 
-**Research Interests**
+### Research Interests
 ---
-* **Trustworthy & Privacy-Preserving AI:** Distributed machine learning, Split Learning (SL), Federated Learning, and secure collaborative frameworks for sensitive clinical environments.
-* **Knowledge Distillation & Model Compression:** Logit-level distillation, latent representation alignment, and knowledge transfer under extreme label scarcity (few-shot supervision).
-* **Tabular Deep Learning & Foundation Models:** Specialized architectures for heterogeneous tabular data, including FT-Transformer, SAINT, and TabM.
-* **Healthcare Informatics & Clinical AI:** Early disease risk stratification, diagnostic decision support, handling institutional distribution shifts, and multi-cohort harmonization.
-* **Uncertainty & Model Calibration:** Post-hoc probability calibration, Expected Calibration Error (ECE), and out-of-distribution robustness in medical diagnostics.
+* **Agentic AI & Multimodal Clinical Decision Support:** Developing multi-agent retrieval-augmented generation (RAG) frameworks integrating electronic health records (EHR), medical imaging and clinical notes.
+* **Uncertainty Quantification & Model Calibration:** Designing reliable uncertainty estimation methods so clinical agents flag limitations rather than making overconfident predictions in high-stakes environments.
+* **Algorithmic Fairness & Bias Mitigation:** Mitigating non-clinical proxy variable exploitation (e.g., insurance status, socioeconomic factors) to reduce disparities in healthcare ML.
+* **Decentralized & Privacy-Preserving Learning:** Split learning, federated learning and knowledge distillation for distributed medical systems.
 
 **Publications & Preprints**
 ---
