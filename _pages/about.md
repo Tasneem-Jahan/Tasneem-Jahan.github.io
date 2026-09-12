@@ -48,6 +48,28 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
   </div>
 </div>
 ---
+### Recent Updates
+
+### Milestones & Trajectory
+<div class="news-timeline">
+  <div class="news-item">
+    <span class="news-date">Jul 2026</span>
+    <span class="news-text">Applied for PhD studentships in Data Science & AI funded by Research Ireland.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">Mar 2026</span>
+    <span class="news-text">Successfully defended M.Sc. thesis on <em>"Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data"</em> at BRAC University.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">Jan 2024</span>
+    <span class="news-text">Appointed as Computer Science Teacher, developing curricula in foundational programming, computational thinking, and introductory AI concepts.</span>
+  </div>
+  <div class="news-item">
+    <span class="news-date">Aug 2024</span>
+    <span class="news-text">Graduated with a B.Sc. in Computer Science and Engineering, completing an undergraduate thesis in machine learning and earning Dean’s List honors across three semesters.</span>
+  </div>
+</div>
+---
 ### Featured Research
 
 <div class="featured-research-item">
