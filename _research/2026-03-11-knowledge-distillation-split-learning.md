@@ -38,7 +38,7 @@ date: 2026-03-11
 
 Predictive machine learning models in healthcare often struggle with data decentralization and strict governance regulations that prohibit the pooling of raw patient records across hospital networks. Additionally, target clinics in resource-constrained settings frequently suffer from limited labeled records. 
 
-This research introduces a privacy-preserving framework combining **Split Learning (SL)** with **Knowledge Distillation (KD)** for diabetes risk prediction across heterogeneous clinical tabular datasets. High-capacity teacher models are trained across distributed source cohorts without data centralization, subsequently transferring structured predictive knowledge to compact student models deployed in data-scarce target environments.
+This research introduces a framework combining **Split Learning (SL)** with **Knowledge Distillation (KD)** for diabetes risk prediction across heterogeneous clinical tabular datasets. High-capacity teacher models are trained across distributed source cohorts without data centralization, subsequently transferring structured predictive knowledge to compact student models deployed in data-scarce target environments.
 
 <div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 8px; margin: 24px 0; padding: 16px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; width: 100%; box-sizing: border-box; overflow-x: auto;">
   
