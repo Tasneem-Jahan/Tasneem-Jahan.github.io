@@ -24,10 +24,10 @@ date: 2026-03-11
   <a href="https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58" target="_blank" rel="noopener">
     <i class="fas fa-file-pdf"></i> Read Full Thesis (DSpace)
   </a>
-  <a href="/talks/2026-03-defense-talk/">
+  <a href="/talks/2026-03-defense-talk">
     <i class="fas fa-chalkboard-teacher"></i> Defense Slides
   </a>
-  <a href="/publications/2026-03-11-split-learning-thesis/">
+  <a href="/publications/2026-03-11-split-learning-thesis">
     <i class="fas fa-book-open"></i> Publication Entry
   </a>
 </div>
