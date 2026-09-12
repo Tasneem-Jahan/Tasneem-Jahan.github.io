@@ -32,7 +32,7 @@ date: 2023-05-22
 
 Cardiovascular diseases (CVDs) remain the leading cause of mortality worldwide, responsible for an estimated 700,000 deaths annually. Timely clinical diagnosis is often hindered by heterogeneous feature sets and non-standardized diagnostic criteria across institutions.
 
-This study evaluates five supervised machine learning models across a harmonized, multi-center clinical dataset created by merging five international cohorts (Cleveland, Hungarian, Switzerland, Long Beach VA, and Statlog) with the Z-Alizadeh Sani clinical registry [1]. Using a standardized 10-fold cross-validation protocol and ROC-AUC analysis, the framework assesses generalization ability and prioritizes the reduction of critical false negatives in clinical triage [1].
+This study evaluates five supervised machine learning models across a harmonized, multi-center clinical dataset created by merging five international cohorts (Cleveland, Hungarian, Switzerland, Long Beach VA, and Statlog) with the Z-Alizadeh Sani clinical registry. Using a standardized 10-fold cross-validation protocol and ROC-AUC analysis, the framework assesses generalization ability and prioritizes the reduction of critical false negatives in clinical triage.
 
 <div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 8px; margin: 24px 0; padding: 16px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; width: 100%; box-sizing: border-box; overflow-x: auto;">
   
@@ -73,31 +73,25 @@ This study evaluates five supervised machine learning models across a harmonized
 <h3 id="methodology-workflow">Technical Methodology & Cohort Preparation</h3>
 
 * **Multi-Source Dataset Harmonization:**
-  * Merged 1,763 initial patient records from the UCI Machine Learning Repository and Kaggle benchmarks [1].
-  * Re-engineered and aligned disparate feature definitions from the 54-attribute Z-Alizadeh Sani dataset to match the 12-attribute comprehensive baseline [1]:
-    * **Derived Chest Pain (`cp`):** Standardized typical angina (1), atypical angina (2), non-anginal pain (3), and asymptomatic presentations (0) [1].
-    * **Derived Serum Cholesterol (`chol`):** Formulated from clinical components via total cholesterol calculation: $\text{HDL} + \text{LDL} + 0.20 \times \text{Triglycerides}$ [1].
-    * **Derived Rest ECG (`restecg`):** Mapped ST elevation, ST depression, T-wave inversion (coded as 1), and left ventricular hypertrophy (coded as 2) [1].
+  * Merged 1,763 initial patient records from the UCI Machine Learning Repository and Kaggle benchmarks.
+  * Re-engineered and aligned disparate feature definitions from the 54-attribute Z-Alizadeh Sani dataset to match the 12-attribute comprehensive baseline:
+    * **Derived Chest Pain (cp):** Standardized typical angina (1), atypical angina (2), non-anginal pain (3), and asymptomatic presentations (0).
+    * **Derived Serum Cholesterol (chol):** Formulated from clinical components via total cholesterol calculation: HDL + LDL + 20% triglycerides.
+    * **Derived Rest ECG (restecg):** Mapped ST elevation, ST depression, T-wave inversion (coded as 1), and left ventricular hypertrophy (coded as 2).
 * **Data Cleaning & Scaling:**
-  * Deduplicated records, yielding a final leak-free corpus of **1,219 complete observations** across 8 standardized predictors (`Age`, `Sex`, `cp`, `BP`, `Chol`, `FBS`, `ecg`, `exang`) and the binary diagnosis target (`num`) [1, 2].
-  * Scaled continuous physiological measures (`Age`, `BP`, `Chol`) using Min-Max Normalization and standardized training folds prior to classification [1].
+  * Deduplicated records, yielding a final leak-free corpus of **1,219 complete observations** across 8 standardized predictors (Age, Sex, cp, BP, Chol, FBS, ecg, exang) and the binary diagnosis target (num).
+  * Scaled continuous physiological measures (Age, BP, Chol) using Min-Max Normalization and standardized training folds prior to classification.
 * **Validation Protocol & Model Benchmarking:**
-  * Evaluated five distinct classifier paradigms: **Support Vector Machines (SVM)**, **K-Nearest Neighbors (KNN)**, **Random Forest**, **Logistic Regression**, and **Gaussian Naive Bayes** [1].
-  * Emphasized 10-fold cross-validation across all iterations to prevent sample partition bias [1].
+  * Evaluated five distinct classifier paradigms: **Support Vector Machines (SVM)**, **K-Nearest Neighbors (KNN)**, **Random Forest**, **Logistic Regression**, and **Gaussian Naive Bayes**.
+  * Emphasized 10-fold cross-validation across all iterations to prevent sample partition bias.
 
 ---
 
-### Key Empirical Findings & Conclusions (Heart Disease Study)
+### Key Empirical Findings & Conclusions
 
-* **Cross-Validation Stability:** SVM and KNN demonstrated the closest alignment between training and validation scores, avoiding the variance issues seen in other models[cite: 2, 3].
-* **Rejection of Overfitting:** Random Forest attained 100% training performance across all metrics but dropped to 80.31% validation accuracy, demonstrating severe memorization of noise rather than generalizable clinical patterns[cite: 2, 3].
-* **ROC-AUC Discriminative Advantage:** Between the top candidates, SVM showed superior boundary discrimination over KNN, achieving a higher AUC (0.8031 vs. 0.7480)[cite: 2, 3].
-* **High Clinical Sensitivity:** On the 70/30 hold-out test set, the final SVM model attained an 88.99% recall (sensitivity) with only 24 false negatives against 194 true positives[cite: 2, 3].
-* **Mitigating Life-Threatening Omissions:** Minimizing Type-2 errors is critical in cardiac diagnostics, as failing to identify an at-risk patient carries severe medical consequences compared to false alarms[cite: 2].
-* **Balanced Overall Diagnostics:** SVM maintained robust, well-rounded test metrics with 81.97% accuracy, 82.20% precision, and an 85.46% F1-score across diverse multi-center records[cite: 2, 3].
-
-### Key Findings & Clinical Takeaways
-
-* **Minimizing False Negatives in Triage:** In cardiac diagnostics, Type-2 errors (false negatives) carry severe clinical risk by depriving at-risk patients of critical monitoring [1]. The tuned SVM model achieved an 88.99% recall on the hold-out test set, minimizing missed diagnoses [1].
-* **Overfitting Diagnostics:** Random Forest achieved 100% training accuracy across all folds but degraded to 80.31% on validation, indicating an inability to generalize beyond cohort-specific noise [1]. Conversely, SVM maintained tight consistency between training (83.24%) and validation (80.23%) [1].
-* **Harmonized Multi-Center Reliability:** Integrating multiple international cohorts eliminated single-center sampling bias, establishing a robust clinical risk pipeline across diverse demographic groups [1].
+* **Cross-Validation Stability:** SVM and KNN demonstrated the closest alignment between training and validation scores, avoiding the variance issues seen in other models.
+* **Rejection of Overfitting:** Random Forest attained 100% training performance across all metrics but dropped to 80.31% validation accuracy, demonstrating severe memorization of noise rather than generalizable clinical patterns.
+* **ROC-AUC Discriminative Advantage:** Between the top candidates, SVM showed superior boundary discrimination over KNN, achieving a higher AUC (0.8031 vs. 0.7480).
+* **High Clinical Sensitivity:** On the 70/30 hold-out test set, the final SVM model attained an 88.99% recall (sensitivity) with only 24 false negatives against 194 true positives.
+* **Mitigating Life-Threatening Omissions:** Minimizing Type-2 errors is critical in cardiac diagnostics, as failing to identify an at-risk patient carries severe medical consequences compared to false alarms.
+* **Balanced Overall Diagnostics:** SVM maintained robust, well-rounded test metrics with 81.97% accuracy, 82.20% precision, and an 85.46% F1-score across diverse multi-center records.
