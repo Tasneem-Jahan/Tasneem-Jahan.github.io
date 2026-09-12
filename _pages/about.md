@@ -78,7 +78,7 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
 ### Featured Research
 
 <div class="featured-research-item">
-  <strong><a href="{{ site.url }}{{ site.baseurl }}/research/knowledge-distillation-split-learning/">Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data</a></strong>
+  <strong>Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data</strong>
   <div class="research-tags">
     <span class="research-tag">Split Learning</span>
     <span class="research-tag">Knowledge Distillation</span>
@@ -93,7 +93,7 @@ In my M.Sc. thesis, I investigated split learning frameworks for heterogeneous c
 </div>
 
 <div class="featured-research-item">
-  <strong><a href="{{ site.url }}{{ site.baseurl }}/research/heart-disease-prediction/">Heart Disease Prediction Using Machine Learning</a></strong>
+  <strong>Heart Disease Prediction Using Machine Learning</strong>
   <div class="research-tags">
     <span class="research-tag">Classification</span>
     <span class="research-tag">Scikit-learn</span>
