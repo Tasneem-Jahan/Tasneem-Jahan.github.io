@@ -22,7 +22,7 @@ date: 2023-05-22
 
 <div class="pub-actions">
   <a href="/talks/2023-05-heart-disease-defense/">
-    <i class="fas fa-chalkboard-teacher"></i> Defense Presentation & Slides
+    <i class="fas fa-chalkboard-teacher"></i> Defense Presentation
   </a>
 </div>
 
