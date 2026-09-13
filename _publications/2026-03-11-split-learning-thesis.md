@@ -5,11 +5,6 @@ category: "thesis"
 permalink: /publications/2026-03-11-split-learning-thesis
 date: 2026-03-11
 venue: 'BRAC University Institutional Repository (DSpace)'
-tags:
-  - Split Learning
-  - Knowledge Distillation
-  - Tabular Deep Learning
-  - PyTorch
 ---
 
 <div class="pub-citation">
