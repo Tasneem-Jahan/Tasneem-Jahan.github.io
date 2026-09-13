@@ -21,7 +21,7 @@ redirect_from:
 
 * **Master of Science in Computer Science and Engineering**  
   BRAC University, Dhaka, Bangladesh | *Graduated: March 2026*  
-  * **Thesis:** *Privacy-Preserving Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data*
+  * **Thesis:** * Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data*
   * **Supervisor:** Dr. Md. Golam Rabiul Alam
   * **Focus:** Distributed machine learning, split learning, knowledge distillation, tabular transformers (FT-Transformer, SAINT, TabM), few-shot learning
 
