@@ -9,8 +9,8 @@ location: "Dhaka, Bangladesh"
 ---
 
 <div class="pub-citation">
-  <strong>Tasneem Jahan Farheen</strong> (Supervised by Dr. Md. Golam Rabiul Alam)<br>
-  <em>Master of Science in Computer Science and Engineering Oral Defense</em> — BRAC University, March 2026 
+  <strong>Tasneem Jahan Farheen</strong><br>
+  <em>Supervised by Dr. Md. Golam Rabiul Alam</em> — BRAC University, March 2026 
 </div>
 
 <div class="research-tags">
