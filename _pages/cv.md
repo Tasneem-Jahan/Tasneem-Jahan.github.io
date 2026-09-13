@@ -59,7 +59,7 @@ redirect_from:
 
 **Skills**
 ---
-* **Programming Languages & Frameworks:** Python, PyTorch, Scikit-Learn, SQL, Java, PHP (Laravel), JavaScript (Vue.js, React)
+* **Programming Languages & Frameworks:** Python, SQL, PHP (Laravel), JavaScript (Vue.js, React)
 * **Software & Tools:** Git/GitHub, VS Code, Google Colab, Microsoft Excel, Power BI
 * **Research & Core Competencies:** Split Learning, Knowledge Distillation, Model Calibration, Data Preprocessing & Feature Engineering
 * **Soft Skills:** Academic Writing, Curriculum Delivery, Technical Communication, Problem-Solving, Team Collaboration
