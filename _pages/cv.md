@@ -43,15 +43,6 @@ redirect_from:
 * **Farheen, T. J.**, & Alam, M. G. R. (2026). *Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data*. M.Sc. Thesis, BRAC University DSpace Institutional Repository.  
   [DSpace Repository](https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58) | [Project Overview](/research/knowledge-distillation-split-learning/)
 
-**Presentations & Talks**
----
-* **Oral Defense Presentation:** *Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data*  
-  M.Sc. Thesis Defense, Department of Computer Science and Engineering, BRAC University (March 2026).  
-  [Presentation Page & Slides](/talks/2026-03-defense-talk/)
-* **Undergraduate Thesis Defense:** *Heart Disease Prediction Using Machine Learning*  
-  B.Sc. Thesis Defense, Department of Computer Science, AIUB (July 2023).  
-  [Presentation Page & Slides](/talks/2023-07-heart-disease-defense/)
-
 **Projects & Data Engineering**
 ---
 
