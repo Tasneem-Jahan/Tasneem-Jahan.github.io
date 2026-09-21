@@ -9,14 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-<div class="cv-action-bar">
+<!-- <div class="cv-action-bar">
   <a href="{{ '/files/CV_Tasneem_Jahan_Farheen.pdf' | relative_url }}" class="btn btn--primary" target="_blank">
     <i class="fas fa-file-pdf"></i> Download Full CV (PDF)
   </a>
   <a href="https://github.com/Tasneem-Jahan" class="btn btn--outline" target="_blank">
     <i class="fab fa-github"></i> GitHub Profile
   </a>
-</div>
+</div> -->
 
 <!-- Embedded Scrollable PDF Viewer -->
 <div class="pdf-viewer-container">
