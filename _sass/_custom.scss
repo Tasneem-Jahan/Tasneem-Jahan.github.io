@@ -460,3 +460,45 @@ kbd {
   color: var(--accent-color, #0f766e) !important;
   border-bottom: 2px solid var(--accent-color, #0f766e) !important;
 }
+/* ==========================================================================
+   CV PAGE & EMBEDDED PDF VIEWER
+   ========================================================================== */
+.cv-action-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75em;
+  margin: 1.2em 0 1.5em 0;
+}
+
+.pdf-viewer-container {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--surface-border, #e2e8f0);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  background-color: #525659; /* Standard PDF reader background */
+
+  object {
+    display: block;
+    border: none;
+  }
+}
+
+.pdf-fallback {
+  background: var(--surface-bg, #f8fafc);
+  padding: 3em 1.5em;
+  text-align: center;
+  color: var(--text-body, #334155);
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 1.2em;
+  }
+}
+
+/* Adjust height for smaller laptop / tablet displays */
+@media screen and (max-width: 900px) {
+  .pdf-viewer-container object {
+    height: 750px;
+  }
+}
