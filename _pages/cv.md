@@ -7,66 +7,31 @@ redirect_from:
   - /resume
 ---
 
-<div class="pub-actions" style="margin-bottom: 1.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-  <a href="/files/CV_Tasneem_Jahan_Farheen.pdf" download="CV_Tasneem_Jahan_Farheen.pdf" style="display: inline-flex; align-items: center; gap: 0.35rem; background: var(--accent-color, #0f766e); color: #ffffff !important; font-size: 0.8rem; font-weight: 600; padding: 0.35rem 0.75rem; border-radius: 5px; text-decoration: none !important;">
+{% include base_path %}
+
+<div class="cv-action-bar">
+  <a href="{{ '/files/CV_Tasneem_Jahan_Farheen.pdf' | relative_url }}" class="btn btn--primary" target="_blank">
     <i class="fas fa-file-pdf"></i> Download Full CV (PDF)
   </a>
-  <a href="https://github.com/Tasneem-Jahan" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.8rem; font-weight: 600; padding: 0.35rem 0.75rem; border-radius: 5px; border: 1px solid var(--surface-border, #e2e8f0); text-decoration: none !important;">
+  <a href="https://github.com/Tasneem-Jahan" class="btn btn--outline" target="_blank">
     <i class="fab fa-github"></i> GitHub Profile
   </a>
 </div>
 
-**Education**
----
-
-* **Master of Science in Computer Science and Engineering**  
-  BRAC University, Dhaka, Bangladesh | *Graduated: March 2026*  
-  * **Thesis:** * Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data*
-  * **Supervisor:** Dr. Md. Golam Rabiul Alam
-  * **Focus:** Distributed machine learning, split learning, knowledge distillation, tabular transformers (FT-Transformer, SAINT, TabM), few-shot learning
-
-* **Bachelor of Science in Computer Science and Engineering**  
-  American International University-Bangladesh (AIUB), Dhaka, Bangladesh | *Graduated: August 2024*
-  * **Thesis:** *Heart Disease Prediction Using Machine Learning*  
-  * **Supervisor:** Tanvir Ahmed
-  * **Focus:** Supervised tabular classification, 10-fold cross-validation, SVM, KNN, hyperparameter tuning.
-
-### Research Interests
----
-* **Agentic AI & Multimodal Clinical Decision Support:** Developing multi-agent retrieval-augmented generation (RAG) frameworks integrating electronic health records (EHR), medical imaging and clinical notes.
-* **Uncertainty Quantification & Model Calibration:** Designing reliable uncertainty estimation methods so clinical agents flag limitations rather than making overconfident predictions in high-stakes environments.
-* **Algorithmic Fairness & Bias Mitigation:** Mitigating non-clinical proxy variable exploitation (e.g., insurance status, socioeconomic factors) to reduce disparities in healthcare ML.
-* **Decentralized & Privacy-Preserving Learning:** Split learning, federated learning and knowledge distillation for distributed medical systems.
-
-**Publications & Preprints**
----
-* **Farheen, T. J.**, & Alam, M. G. R. (2026). *Knowledge Distillation in Split Learning for Heterogeneous Clinical Tabular Data*. M.Sc. Thesis, BRAC University DSpace Institutional Repository.  
-  [DSpace Repository](https://dspace.bracu.ac.bd/items/fcb0c1f9-183f-4bd4-aba8-3f915c5e4c58) | [Project Overview](/research/knowledge-distillation-split-learning/)
-
-**Projects & Data Engineering**
----
-
-* **Automated Weather API Data Pipeline & Power BI Dashboard** | *August 2026*  
-  * Built an end-to-end automated Python ETL pipeline querying continuous hourly weather observations from the Open-Meteo REST API.  
-  * Modeled a normalized SQL Star Schema to evaluate multi-city longitudinal temperature, moisture, and wind dynamics.  
-  * Designed an interactive Power BI analytics suite tracking multi-station KPIs and diurnal patterns.  
-  [Project Details](/portfolio/2026-weather-pipeline/) | [GitHub Repository](https://github.com/Tasneem-Jahan/weather-api-data-pipeline)
-
-* **E-Commerce Customer Segmentation & Behavioral RFM Clustering** | *July 2026*  
-  * Engineered an unsupervised ML pipeline transforming transactional logs into Recency, Frequency, and Monetary (RFM) distributions.  
-  * Applied Principal Component Analysis (PCA) and K-Means clustering with Silhouette validation to establish customer retention cohorts.  
-  [Project Details](/portfolio/2026-ecommerce-segmentation/) | [GitHub Repository](https://github.com/Tasneem-Jahan/rfm-customer-segmentation-engine)
-
-**Skills**
----
-* **Programming Languages & Frameworks:** Python, SQL, PHP (Laravel), JavaScript (Vue.js, React)
-* **Software & Tools:** Git/GitHub, VS Code, Google Colab, Microsoft Excel, Power BI
-* **Research & Core Competencies:** Split Learning, Knowledge Distillation, Model Calibration, Data Preprocessing & Feature Engineering
-* **Soft Skills:** Academic Writing, Curriculum Delivery, Technical Communication, Problem-Solving, Team Collaboration
-
-**Academic Service & Teaching**
----
-* **Computer Science Teacher**  
-  * Develop and deliver foundational curricula and lesson plans covering MS Word, Python programming, and introductory Artificial Intelligence.  
-  * Conduct weekly hands-on laboratory sessions, improving student practical competencies by 85% based on periodic assessments.  
-  * Design, administer, and grade structured digital assessments for systematic academic progress tracking.
+<!-- Embedded Scrollable PDF Viewer -->
+<div class="pdf-viewer-container">
+  <object
+    data="{{ '/files/CV_Tasneem_Jahan_Farheen.pdf' | relative_url }}"
+    type="application/pdf"
+    width="100%"
+    height="1000px"
+  >
+    <!-- Fallback if browser/device cannot render embedded PDF -->
+    <div class="pdf-fallback">
+      <p>Your browser does not support embedded PDF viewing.</p>
+      <a href="{{ '/files/CV_Tasneem_Jahan_Farheen.pdf' | relative_url }}" class="btn btn--primary" target="_blank">
+        <i class="fas fa-file-pdf"></i> Click here to view and download the CV
+      </a>
+    </div>
+  </object>
+</div>
