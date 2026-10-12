@@ -1,7 +1,7 @@
 ---
 title: "Confidence-weighted encoder-level knowledge distillation over split learning for few-shot cross-age autism screening"
 collection: publications
-category: "manuscripts"
+category: "manuscript"
 permalink: /publications/2026-10-02-autism-screening
 date: 2026-10-02
 venue: 'Big Data Research (Elsevier), under review'
